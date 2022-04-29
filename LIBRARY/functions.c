@@ -82,7 +82,7 @@ void ADC1_vreg_en(void){
 
 void TIMER3_set(unsigned int arr, unsigned int psc, _Bool enable){
   
-  TIMER3 -> ARR = arr;                //Config TIMER3 tale da avere delta_t = 0,5s
+  TIMER3 -> ARR = arr;                
   TIMER3 -> PSC = psc;       
   TIMER3 -> CR1 |= enable;
     
