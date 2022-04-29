@@ -4,7 +4,7 @@
 *       Calcolare media e deviazione standard. Utilizzare le periferiche ADC1 e TIMER3.
 *
 *       @Gabriele Felaco
-*       28/04/2022
+*       29/04/2022
 */
 
 
