@@ -1,0 +1,357 @@
+###############################################################################
+#
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  28/Apr/2022  18:39:00
+# Copyright 2007-2022 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\gabri\OneDrive - Università di Napoli Federico
+#        II\Università\MAGISTRALE\STM\PROGRAMMI\ESERCIZI\Esercizio_ADC_01\Debug\Exe\Esercizio_ADC_01.out
+#    Map file     =
+#        C:\Users\gabri\OneDrive - Università di Napoli Federico
+#        II\Università\MAGISTRALE\STM\PROGRAMMI\ESERCIZI\Esercizio_ADC_01\Debug\List\Esercizio_ADC_01.map
+#    Command line =
+#        -f "C:\Users\gabri\OneDrive - Università di Napoli Federico
+#        II\Università\MAGISTRALE\STM\PROGRAMMI\ESERCIZI\Esercizio_ADC_01\Debug\Exe\Esercizio_ADC_01.out.rsp"
+#        ("C:\Users\gabri\OneDrive - Università di Napoli Federico
+#        II\Università\MAGISTRALE\STM\PROGRAMMI\ESERCIZI\Esercizio_ADC_01\Debug\Obj\functions.o"
+#        "C:\Users\gabri\OneDrive - Università di Napoli Federico
+#        II\Università\MAGISTRALE\STM\PROGRAMMI\ESERCIZI\Esercizio_ADC_01\Debug\Obj\main.o"
+#        --no_out_extension -o "C:\Users\gabri\OneDrive - Università di Napoli
+#        Federico
+#        II\Università\MAGISTRALE\STM\PROGRAMMI\ESERCIZI\Esercizio_ADC_01\Debug\Exe\Esercizio_ADC_01.out"
+#        --map "C:\Users\gabri\OneDrive - Università di Napoli Federico
+#        II\Università\MAGISTRALE\STM\PROGRAMMI\ESERCIZI\Esercizio_ADC_01\Debug\List\Esercizio_ADC_01.map"
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.0\arm\config\linker\ST\stm32f303xC.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x803'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'9fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  section .ccmram  in "P3"
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0x40
+  .intvec            ro code   0x800'0000    0x40  vector_table_M.o [4]
+                             - 0x800'0040    0x40
+
+"P1":                                      0x1f50
+  .text              ro code   0x800'0040   0xd2e  xprintflarge_nomb.o [2]
+  .text              ro code   0x800'0d6e    0x2a  copy_init3.o [4]
+  .text              ro code   0x800'0d98    0x16  strchr.o [4]
+  .text              ro code   0x800'0dae     0x2  vectortrap_M.o [4]
+  .text              ro code   0x800'0db0    0x40  xfail_s.o [2]
+  .text              ro code   0x800'0df0    0x36  strlen.o [4]
+  .text              ro code   0x800'0e28    0x58  memchr.o [4]
+  .text              ro code   0x800'0e80    0x76  ABImemcpy_unaligned.o [4]
+  .text              ro code   0x800'0ef8    0x70  frexp.o [3]
+  .text              ro code   0x800'0f68   0x246  DblDiv.o [3]
+  .text              ro code   0x800'11b0    0x22  DblToU32.o [3]
+  .text              ro code   0x800'11d4    0x1c  U32ToDbl.o [3]
+  .text              ro code   0x800'11f0   0x24e  DblAddSub.o [3]
+  .text              ro code   0x800'1440   0x1aa  DblMul.o [3]
+  .text              ro code   0x800'15ec   0x230  I64DivMod.o [4]
+  .text              ro code   0x800'181c     0x6  abort.o [2]
+  .text              ro code   0x800'1824     0x2  I64DivZer.o [4]
+  .text              ro code   0x800'1828    0x14  exit.o [5]
+  .text              ro code   0x800'183c    0x7c  iarttio.o [5]
+  .text              ro code   0x800'18b8     0x8  XShttio.o [2]
+  .text              ro code   0x800'18c0   0x194  functions.o [1]
+  .text              ro code   0x800'1a54    0x48  FltToDbl.o [3]
+  .text              ro code   0x800'1a9c    0x68  DblToFlt.o [3]
+  .text              ro code   0x800'1b04   0x102  sqrt.o [3]
+  .text              ro code   0x800'1c08   0x18c  main.o [1]
+  .text              ro code   0x800'1d94    0x28  printf.o [2]
+  .text              ro code   0x800'1dbc    0x38  zero_init3.o [4]
+  .text              ro code   0x800'1df4    0x28  data_init.o [4]
+  .text              ro code   0x800'1e1c    0x22  fpinit_M.o [3]
+  .text              ro code   0x800'1e3e    0x22  iarwrite.o [5]
+  .iar.init_table    const     0x800'1e60    0x24  - Linker created -
+  .text              ro code   0x800'1e84    0x20  putchar.o [2]
+  .text              ro code   0x800'1ea4    0x10  write.o [5]
+  .text              ro code   0x800'1eb4    0x1e  dwrite.o [5]
+  .text              ro code   0x800'1ed2    0x20  iarwstd.o [5]
+  .text              ro code   0x800'1ef4    0x1e  cmain.o [4]
+  .text              ro code   0x800'1f12     0x4  low_level_init.o [2]
+  .text              ro code   0x800'1f16     0x4  exit.o [2]
+  .text              ro code   0x800'1f1c     0xa  cexit.o [4]
+  .text              ro code   0x800'1f28    0x1c  cstartup_M.o [4]
+  .text              ro code   0x800'1f44    0x16  xprout.o [2]
+  .rodata            const     0x800'1f5c    0x14  main.o [1]
+  .rodata            const     0x800'1f70    0x10  main.o [1]
+  .rodata            const     0x800'1f80     0x8  main.o [1]
+  Initializer bytes  const     0x800'1f88     0x8  <for P2-1>
+  .rodata            const     0x800'1f90     0x0  zero_init3.o [4]
+  .rodata            const     0x800'1f90     0x0  copy_init3.o [4]
+                             - 0x800'1f90  0x1f50
+
+"P2", part 1 of 3:                            0x8
+  P2-1                        0x2000'0000     0x8  <Init block>
+    .data            inited   0x2000'0000     0x8  XShttio.o [2]
+                            - 0x2000'0008     0x8
+
+"P2", part 2 of 3:                           0x54
+  .bss               zero     0x2000'0008    0x3c  main.o [1]
+  .bss               zero     0x2000'0044     0x4  main.o [1]
+  .bss               zero     0x2000'0048     0x4  main.o [1]
+  .bss               zero     0x2000'004c     0x4  main.o [1]
+  .bss               zero     0x2000'0050     0x4  main.o [1]
+  .bss               zero     0x2000'0054     0x4  main.o [1]
+  .bss               zero     0x2000'0058     0x4  xfail_s.o [2]
+                            - 0x2000'005c    0x54
+
+"P2", part 3 of 3:                         0x2000
+  CSTACK                      0x2000'0060  0x2000  <Block>
+    CSTACK           uninit   0x2000'0060  0x2000  <Block tail>
+                            - 0x2000'2060  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'1f90   0x803'ffff  0x3'e070
+  0x2000'005c  0x2000'005f       0x4
+  0x2000'2060  0x2000'9fff    0x7fa0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x54:
+          0x2000'0008  0x54
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x8:
+           0x800'1f88   0x8
+    1 destination range, total size 0x8:
+          0x2000'0000   0x8
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+command line/config:
+    ------------------------------------------------
+    Total:
+
+C:\Users\gabri\OneDrive - Università di Napoli Federico II\Università\MAGISTRALE\STM\PROGRAMMI\ESERCIZI\Esercizio_ADC_01\Debug\Obj: [1]
+    functions.o                404
+    main.o                     396       44       80
+    ------------------------------------------------
+    Total:                     800       44       80
+
+dl7M_tln.a: [2]
+    XShttio.o                    8        8        8
+    abort.o                      6
+    exit.o                       4
+    low_level_init.o             4
+    printf.o                    40
+    putchar.o                   32
+    xfail_s.o                   64                 4
+    xprintflarge_nomb.o      3'374
+    xprout.o                    22
+    ------------------------------------------------
+    Total:                   3'554        8       12
+
+m7M_tls.a: [3]
+    DblAddSub.o                590
+    DblDiv.o                   582
+    DblMul.o                   426
+    DblToFlt.o                 104
+    DblToU32.o                  34
+    FltToDbl.o                  72
+    U32ToDbl.o                  28
+    fpinit_M.o                  34
+    frexp.o                    112
+    sqrt.o                     258
+    ------------------------------------------------
+    Total:                   2'240
+
+rt7M_tl.a: [4]
+    ABImemcpy_unaligned.o      118
+    I64DivMod.o                560
+    I64DivZer.o                  2
+    cexit.o                     10
+    cmain.o                     30
+    copy_init3.o                42
+    cstartup_M.o                28
+    data_init.o                 40
+    memchr.o                    88
+    strchr.o                    22
+    strlen.o                    54
+    vector_table_M.o            64
+    vectortrap_M.o               2
+    zero_init3.o                56
+    ------------------------------------------------
+    Total:                   1'116
+
+shb_l.a: [5]
+    dwrite.o                    30
+    exit.o                      20
+    iarttio.o                  124
+    iarwrite.o                  34
+    iarwstd.o                   32
+    write.o                     16
+    ------------------------------------------------
+    Total:                     256
+
+    Gaps                        24        2
+    Linker created                       36    8'192
+----------------------------------------------------
+    Grand Total:             7'990       90    8'284
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'1e60          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'1e84          --   Gb  - Linker created -
+?main                    0x800'1ef5         Code  Gb  cmain.o [4]
+ADC1_vreg_en             0x800'1a05   0x14  Code  Gb  functions.o [1]
+BusFault_Handler         0x800'0daf         Code  Wk  vectortrap_M.o [4]
+CSTACK$$Base            0x2000'0060          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'2060          --   Gb  - Linker created -
+DebugMon_Handler         0x800'0daf         Code  Wk  vectortrap_M.o [4]
+HardFault_Handler        0x800'0daf         Code  Wk  vectortrap_M.o [4]
+MemManage_Handler        0x800'0daf         Code  Wk  vectortrap_M.o [4]
+NMI_Handler              0x800'0daf         Code  Wk  vectortrap_M.o [4]
+PendSV_Handler           0x800'0daf         Code  Wk  vectortrap_M.o [4]
+Region$$Table$$Base      0x800'1e60          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'1e84          --   Gb  - Linker created -
+SVC_Handler              0x800'0daf         Code  Wk  vectortrap_M.o [4]
+SysTick_Handler          0x800'0daf         Code  Wk  vectortrap_M.o [4]
+TIMER3_set               0x800'1a19   0x14  Code  Gb  functions.o [1]
+UsageFault_Handler       0x800'0daf         Code  Wk  vectortrap_M.o [4]
+_LitobLargeNoMb          0x800'0b4d  0x10c  Code  Lc  xprintflarge_nomb.o [2]
+_PrintfLargeNoMb         0x800'0041  0xb06  Code  Gb  xprintflarge_nomb.o [2]
+_Prout                   0x800'1f45   0x16  Code  Gb  xprout.o [2]
+_PutcharLargeNoMb        0x800'0cb5   0x20  Code  Lc  xprintflarge_nomb.o [2]
+_PutcharsLargeNoMb       0x800'0cd5   0x2e  Code  Lc  xprintflarge_nomb.o [2]
+__aeabi_d2f              0x800'1a9d         Code  Gb  DblToFlt.o [3]
+__aeabi_d2uiz            0x800'11b1         Code  Gb  DblToU32.o [3]
+__aeabi_ddiv             0x800'0f69         Code  Gb  DblDiv.o [3]
+__aeabi_dmul             0x800'1441         Code  Gb  DblMul.o [3]
+__aeabi_dsub             0x800'135d         Code  Gb  DblAddSub.o [3]
+__aeabi_f2d              0x800'1a55         Code  Gb  FltToDbl.o [3]
+__aeabi_ldiv0            0x800'1825         Code  Gb  I64DivZer.o [4]
+__aeabi_ui2d             0x800'11d5         Code  Gb  U32ToDbl.o [3]
+__aeabi_uldivmod         0x800'15ed         Code  Gb  I64DivMod.o [4]
+__cmain                  0x800'1ef5         Code  Gb  cmain.o [4]
+__dwrite                 0x800'1eb5   0x1e  Code  Gb  dwrite.o [5]
+__exit                   0x800'1829   0x14  Code  Gb  exit.o [5]
+__iar_Fail_s             0x800'0db1   0x1c  Code  Gb  xfail_s.o [2]
+__iar_Memchr             0x800'0e29         Code  Gb  memchr.o [4]
+__iar_Strchr             0x800'0d99         Code  Gb  strchr.o [4]
+__iar_close_ttio         0x800'183d   0x2c  Code  Gb  iarttio.o [5]
+__iar_copy_init3         0x800'0d6f   0x2a  Code  Gb  copy_init3.o [4]
+__iar_data_init3         0x800'1df5   0x28  Code  Gb  data_init.o [4]
+__iar_frexp              0x800'0f05         Code  Gb  frexp.o [3]
+__iar_frexpl             0x800'0f05         Code  Gb  frexp.o [3]
+__iar_get_ttio           0x800'1869   0x4c  Code  Gb  iarttio.o [5]
+__iar_init_vfp           0x800'1e1d         Code  Gb  fpinit_M.o [3]
+__iar_lookup_ttioh       0x800'18b9    0x8  Code  Gb  XShttio.o [2]
+__iar_program_start      0x800'1f29         Code  Gb  cstartup_M.o [4]
+__iar_sh_stdout          0x800'1ed3   0x20  Code  Gb  iarwstd.o [5]
+__iar_sh_write           0x800'1e3f   0x22  Code  Gb  iarwrite.o [5]
+__iar_softfp___iar_frexp64
+                         0x800'0ef9         Code  Gb  frexp.o [3]
+__iar_softfp_frexp       0x800'0ef9         Code  Gb  frexp.o [3]
+__iar_softfp_frexpl      0x800'0ef9         Code  Gb  frexp.o [3]
+__iar_sqrt64             0x800'1b15         Code  Gb  sqrt.o [3]
+__iar_ttio_handles      0x2000'0000    0x8  Data  Lc  XShttio.o [2]
+__iar_unaligned_memcpy   0x800'0e81         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned_memcpy4
+                         0x800'0ea1         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned_memcpy8
+                         0x800'0ea1         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_vfp___iar_sqrt64   0x800'1b05         Code  Gb  sqrt.o [3]
+__iar_vfp_sqrt           0x800'1b05         Code  Gb  sqrt.o [3]
+__iar_vfp_sqrtl          0x800'1b05         Code  Gb  sqrt.o [3]
+__iar_zero_init3         0x800'1dbd   0x38  Code  Gb  zero_init3.o [4]
+__low_level_init         0x800'1f13    0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000         Data  Gb  vector_table_M.o [4]
+__write                  0x800'1ea5   0x10  Code  Gb  write.o [5]
+_call_main               0x800'1f01         Code  Gb  cmain.o [4]
+_exit                    0x800'1f1d         Code  Gb  cexit.o [4]
+abort                    0x800'181d    0x6  Code  Gb  abort.o [2]
+acquisition             0x2000'0008   0x3c  Data  Gb  main.o [1]
+cnt                     0x2000'0044    0x4  Data  Gb  main.o [1]
+data_reg                0x2000'0048    0x4  Data  Gb  main.o [1]
+dev_std                 0x2000'0054    0x4  Data  Gb  main.o [1]
+exit                     0x800'1f17    0x4  Code  Gb  exit.o [2]
+main                     0x800'1c09  0x18c  Code  Gb  main.o [1]
+mean                     0x800'18c1   0x28  Code  Gb  functions.o [1]
+media                   0x2000'0050    0x4  Data  Gb  main.o [1]
+memchr                   0x800'0e29         Code  Gb  memchr.o [4]
+printf                   0x800'1d95   0x28  Code  Gb  printf.o [2]
+putchar                  0x800'1e85   0x20  Code  Gb  putchar.o [2]
+scale                    0x800'0c59   0x46  Code  Lc  xprintflarge_nomb.o [2]
+sec_hand                0x2000'0058    0x4  Data  Lc  xfail_s.o [2]
+sqrt                     0x800'1b15         Code  Gb  sqrt.o [3]
+sqrtl                    0x800'1b15         Code  Gb  sqrt.o [3]
+std_dev                  0x800'18e9   0x7e  Code  Gb  functions.o [1]
+strchr                   0x800'0d99         Code  Gb  strchr.o [4]
+strlen                   0x800'0df1         Code  Gb  strlen.o [4]
+voltage                 0x2000'004c    0x4  Data  Gb  main.o [1]
+wait_ms                  0x800'19bd   0x48  Code  Gb  functions.o [1]
+wait_next_acquisition    0x800'1967   0x12  Code  Gb  functions.o [1]
+wait_us                  0x800'1979   0x44  Code  Gb  functions.o [1]
+
+
+[1] = C:\Users\gabri\OneDrive - Università di Napoli Federico II\Università\MAGISTRALE\STM\PROGRAMMI\ESERCIZI\Esercizio_ADC_01\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  7'990 bytes of readonly  code memory
+     90 bytes of readonly  data memory
+  8'284 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
