@@ -199,7 +199,7 @@ typedef struct{
   
 }ADC_type;
 
-
+#define TCK_MS 0.000125
 
 #define RCC ((RCC_type*) 0x40021000)
 #define GPIOE ((Gpio_type*) 0x48001000)

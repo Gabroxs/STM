@@ -90,15 +90,15 @@ void TIMER3_set(unsigned int arr, unsigned int psc, _Bool enable){
 
 unsigned int TIMER3_PSC_wait_ms(float delta_t){
   
-  const float TCK = 0.000125;
+  //const float TCK = 0.000125;
   const unsigned int ARR = 65535;
-  float diff_delta_t[2];
+  float diff_delta_t[2] = {0.0};
   
-  unsigned int PSC = (unsigned int) roundf((delta_t / (ARR * TCK)) - 1);
+  unsigned int PSC = (unsigned int) roundf((delta_t / ((float)(ARR) * TCK_MS)) - 1);
   printf("%u\n", PSC);
   
-  diff_delta_t[0] = fabsf((ARR * (PSC + 1) * TCK) - delta_t);
-  diff_delta_t[1] = fabsf((ARR * PSC * TCK) - delta_t);
+  diff_delta_t[0] = fabsf((ARR * ((float)(PSC) + 1) * TCK_MS) - delta_t);
+  diff_delta_t[1] = fabsf((ARR * (float)(PSC) * TCK_MS) - delta_t);
     
   for(size_t i = 0; i < 2; i++){
       
@@ -109,13 +109,13 @@ unsigned int TIMER3_PSC_wait_ms(float delta_t){
   
   if(diff_delta_t[0] >= diff_delta_t[1]){
     
-    return (PSC + 1);
+    return PSC;
     
   }
   
-  if(diff_delta_t[0] < diff_delta_t[1]){
+  else{
     
-    return PSC;
+    return PSC + 1;
     
   }
   
