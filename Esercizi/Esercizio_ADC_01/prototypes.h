@@ -9,5 +9,6 @@
    void TIMER3_set(unsigned int arr, unsigned int psc, _Bool enable);
    float mean(float values[], unsigned int N);
    float std_dev(float values[], float mean, unsigned int N);
+   unsigned int TIMER3_PSC_wait_ms(float delta_t);
 
 #endif

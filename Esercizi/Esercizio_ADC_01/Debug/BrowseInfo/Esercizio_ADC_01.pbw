@@ -7016,6 +7016,62 @@
     "scope": null
   },
   {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "26",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "26",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "26",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "26",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@dev_std",
     "What": "Variable",
     "defdec": "Dec",
@@ -16991,6 +17047,34 @@
     "scope": null
   },
   {
+    "ID": "c:@F@wait_us",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void wait_us(unsigned int)",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\prototypes.h"
+    },
+    "name": "wait_us",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@wait_us",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void wait_us(unsigned int)",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\prototypes.h"
+    },
+    "name": "wait_us",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:prototypes.h@F@wait_us",
     "What": "Function",
     "defdec": "Dec",
@@ -17095,6 +17179,34 @@
     "display": "void wait_ms(unsigned int)",
     "location": {
       "column": "7",
+      "line": "6",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\prototypes.h"
+    },
+    "name": "wait_ms",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@wait_ms",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void wait_ms(unsigned int)",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\prototypes.h"
+    },
+    "name": "wait_ms",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@wait_ms",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void wait_ms(unsigned int)",
+    "location": {
+      "column": "9",
       "line": "6",
       "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\prototypes.h"
     },
@@ -17463,6 +17575,34 @@
       "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\prototypes.h"
     },
     "name": "mean",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_vreg_en",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ADC1_vreg_en(void)",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\prototypes.h"
+    },
+    "name": "ADC1_vreg_en",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_vreg_en",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ADC1_vreg_en(void)",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\prototypes.h"
+    },
+    "name": "ADC1_vreg_en",
     "origin": "user_include",
     "scope": null
   },
@@ -17719,6 +17859,48 @@
     "scope": null
   },
   {
+    "ID": "c:@F@TIMER3_set",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIMER3_set(unsigned int, unsigned int, bool)",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\prototypes.h"
+    },
+    "name": "TIMER3_set",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIMER3_set",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIMER3_set(unsigned int, unsigned int, bool)",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\prototypes.h"
+    },
+    "name": "TIMER3_set",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIMER3_set",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIMER3_set(unsigned int, unsigned int, bool)",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\prototypes.h"
+    },
+    "name": "TIMER3_set",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@mean",
     "What": "Function",
     "defdec": "Dec",
@@ -18023,6 +18205,76 @@
       "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\prototypes.h"
     },
     "name": "std_dev",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIMER3_PSC_wait_ms",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned int TIMER3_PSC_wait_ms(unsigned int)",
+    "location": {
+      "column": "17",
+      "line": "12",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\prototypes.h"
+    },
+    "name": "TIMER3_PSC_wait_ms",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIMER3_PSC_wait_ms",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned int TIMER3_PSC_wait_ms(float)",
+    "location": {
+      "column": "17",
+      "line": "12",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\prototypes.h"
+    },
+    "name": "TIMER3_PSC_wait_ms",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIMER3_PSC_wait_ms",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned int TIMER3_PSC_wait_ms(unsigned int)",
+    "location": {
+      "column": "17",
+      "line": "12",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\prototypes.h"
+    },
+    "name": "TIMER3_PSC_wait_ms",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIMER3_PSC_wait_ms",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned int TIMER3_PSC_wait_ms(float)",
+    "location": {
+      "column": "17",
+      "line": "12",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\prototypes.h"
+    },
+    "name": "TIMER3_PSC_wait_ms",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIMER3_PSC_wait_ms",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned int TIMER3_PSC_wait_ms(float)",
+    "location": {
+      "column": "17",
+      "line": "12",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\prototypes.h"
+    },
+    "name": "TIMER3_PSC_wait_ms",
     "origin": "user_include",
     "scope": null
   },
@@ -18755,6 +19007,20 @@
     "scope": null
   },
   {
+    "ID": "c:functions.c@364@F@std_dev@std_dev",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "std_dev",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "std_dev",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:functions.c@382@F@std_dev@appoggio",
     "What": "Variable",
     "defdec": "Def",
@@ -18765,6 +19031,20 @@
       "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
     },
     "name": "appoggio",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:functions.c@386@F@std_dev@partial",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "partial",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "partial",
     "origin": "project_file",
     "scope": null
   },
@@ -18798,6 +19078,20 @@
   },
   {
     "ID": "c:functions.c@413@F@std_dev@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "14",
+      "line": "25",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:functions.c@416@F@std_dev@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
@@ -18937,6 +19231,34 @@
     "scope": null
   },
   {
+    "ID": "c:@F@wait_next_acquisition",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void wait_next_acquisition(void)",
+    "location": {
+      "column": "6",
+      "line": "36",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "wait_next_acquisition",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@wait_next_acquisition",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void wait_next_acquisition(void)",
+    "location": {
+      "column": "6",
+      "line": "36",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "wait_next_acquisition",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@wait_us",
     "What": "Function",
     "defdec": "Def",
@@ -18979,6 +19301,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@wait_us",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void wait_us(unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "44",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "wait_us",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:prototypes.h@F@wait_us",
     "What": "Function",
     "defdec": "Def",
@@ -19008,6 +19344,20 @@
   },
   {
     "ID": "c:prototypes.h@F@wait_us",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void wait_us(unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "45",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "wait_us",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@wait_us",
     "What": "Function",
     "defdec": "Def",
     "display": "void wait_us(unsigned int)",
@@ -19105,6 +19455,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@wait_ms",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void wait_ms(unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "58",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "wait_ms",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:prototypes.h@F@wait_ms",
     "What": "Function",
     "defdec": "Def",
@@ -19134,6 +19498,20 @@
   },
   {
     "ID": "c:prototypes.h@F@wait_ms",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void wait_ms(unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "59",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "wait_ms",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@wait_ms",
     "What": "Function",
     "defdec": "Def",
     "display": "void wait_ms(unsigned int)",
@@ -19209,6 +19587,34 @@
     "display": "void ADC1_vreg_en(void)",
     "location": {
       "column": "6",
+      "line": "72",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "ADC1_vreg_en",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_vreg_en",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC1_vreg_en(void)",
+    "location": {
+      "column": "6",
+      "line": "73",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "ADC1_vreg_en",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_vreg_en",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC1_vreg_en(void)",
+    "location": {
+      "column": "6",
       "line": "74",
       "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
     },
@@ -19234,7 +19640,49 @@
     "ID": "c:@F@TIMER3_set",
     "What": "Function",
     "defdec": "Def",
+    "display": "void TIMER3_set(unsigned int, unsigned int, bool)",
+    "location": {
+      "column": "6",
+      "line": "80",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "TIMER3_set",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIMER3_set",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIMER3_set(unsigned int, unsigned int, bool)",
+    "location": {
+      "column": "6",
+      "line": "81",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "TIMER3_set",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIMER3_set",
+    "What": "Function",
+    "defdec": "Def",
     "display": "void TIMER3_set(unsigned int, unsigned int, int)",
+    "location": {
+      "column": "6",
+      "line": "82",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "TIMER3_set",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIMER3_set",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIMER3_set(unsigned int, unsigned int, bool)",
     "location": {
       "column": "6",
       "line": "82",
@@ -19255,6 +19703,314 @@
       "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
     },
     "name": "TIMER3_set",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIMER3_PSC_wait_ms",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "unsigned int TIMER3_PSC_wait_ms(unsigned int)",
+    "location": {
+      "column": "14",
+      "line": "89",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "TIMER3_PSC_wait_ms",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIMER3_PSC_wait_ms",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "unsigned int TIMER3_PSC_wait_ms(unsigned int)",
+    "location": {
+      "column": "14",
+      "line": "89",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "TIMER3_PSC_wait_ms",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIMER3_PSC_wait_ms",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "unsigned int TIMER3_PSC_wait_ms(float)",
+    "location": {
+      "column": "14",
+      "line": "89",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "TIMER3_PSC_wait_ms",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIMER3_PSC_wait_ms",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "unsigned int TIMER3_PSC_wait_ms(float)",
+    "location": {
+      "column": "14",
+      "line": "89",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "TIMER3_PSC_wait_ms",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIMER3_PSC_wait_ms",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "unsigned int TIMER3_PSC_wait_ms(float)",
+    "location": {
+      "column": "14",
+      "line": "91",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "TIMER3_PSC_wait_ms",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:functions.c@1710@F@TIMER3_PSC_wait_ms@TCK",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TCK",
+    "location": {
+      "column": "15",
+      "line": "91",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "TCK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:functions.c@1703@F@TIMER3_PSC_wait_ms@TCK",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TCK",
+    "location": {
+      "column": "15",
+      "line": "91",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "TCK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:functions.c@1741@F@TIMER3_PSC_wait_ms@ARR",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "ARR",
+    "location": {
+      "column": "22",
+      "line": "92",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "ARR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:functions.c@1734@F@TIMER3_PSC_wait_ms@ARR",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "ARR",
+    "location": {
+      "column": "22",
+      "line": "92",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "ARR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:functions.c@1776@F@TIMER3_PSC_wait_ms@diff_delta_t",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "diff_delta_t",
+    "location": {
+      "column": "9",
+      "line": "93",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "diff_delta_t",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:functions.c@1769@F@TIMER3_PSC_wait_ms@diff_delta_t",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "diff_delta_t",
+    "location": {
+      "column": "9",
+      "line": "93",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "diff_delta_t",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:functions.c@1709@F@TIMER3_PSC_wait_ms@TCK",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TCK",
+    "location": {
+      "column": "15",
+      "line": "93",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "TCK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:functions.c@1740@F@TIMER3_PSC_wait_ms@ARR",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "ARR",
+    "location": {
+      "column": "22",
+      "line": "94",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "ARR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:functions.c@1806@F@TIMER3_PSC_wait_ms@PSC",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "PSC",
+    "location": {
+      "column": "9",
+      "line": "95",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "PSC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:functions.c@1775@F@TIMER3_PSC_wait_ms@diff_delta_t",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "diff_delta_t",
+    "location": {
+      "column": "9",
+      "line": "95",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "diff_delta_t",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:functions.c@1806@F@TIMER3_PSC_wait_ms@PSC",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "PSC",
+    "location": {
+      "column": "16",
+      "line": "95",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "PSC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:functions.c@1799@F@TIMER3_PSC_wait_ms@PSC",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "PSC",
+    "location": {
+      "column": "16",
+      "line": "95",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "PSC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:functions.c@1799@F@TIMER3_PSC_wait_ms@PSC",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "PSC",
+    "location": {
+      "column": "16",
+      "line": "95",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "PSC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:functions.c@1805@F@TIMER3_PSC_wait_ms@PSC",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "PSC",
+    "location": {
+      "column": "16",
+      "line": "97",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "PSC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:functions.c@2016@F@TIMER3_PSC_wait_ms@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "14",
+      "line": "101",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:functions.c@2031@F@TIMER3_PSC_wait_ms@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "14",
+      "line": "101",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:functions.c@2037@F@TIMER3_PSC_wait_ms@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "14",
+      "line": "103",
+      "path": "C:\\Users\\gabri\\OneDrive - Universit\u00e0 di Napoli Federico II\\Universit\u00e0\\MAGISTRALE\\STM\\PROGRAMMI\\ESERCIZI\\Esercizio_ADC_01\\functions.c"
+    },
+    "name": "i",
     "origin": "project_file",
     "scope": null
   },

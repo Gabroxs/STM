@@ -16,8 +16,8 @@
 
 
 unsigned int cnt = 0;
-float acquisition[15];
 unsigned int data_reg = 0;
+float acquisition[15];
 float voltage = 0.0;
 float media;
 float dev_std;
@@ -31,21 +31,13 @@ void main(void){
   
   GPIOA -> MODER0 = 3;                  //PA0 impostato come analog MODER0 = 11
   
-  TIMER3_set(65535, 61, 1);
+  //TIMER3_set(65535, 61, 1);
   
-  /*
-  
-  TIMER3 -> ARR = 65535;                //Config TIMER3 tale da avere delta_t = 0,5s
-  TIMER3 -> PSC = 61;       
-  TIMER3 -> CR1 |= 1;
-  
-  ADC1 -> CR &= ~(1 << 29);             //abilitazione regotalore di tensione ADC1
-  ADC1 -> CR |= 1 << 28;
-  */
-   
   ADC1_vreg_en();       
   
-  wait_us(10);
+  TIMER3_set(65535, TIMER3_PSC_wait_ms(0.01) , 1);
+
+  //wait_us(10);
   
   ADC1_2 -> CCR |= 1 << 16;             //impostazione clock da AHB per ADC1_2
   ADC1 -> DIFSEL &= ~(1 << 1);          //impostazione canale ADC1_IN1 come single-ended
@@ -61,7 +53,8 @@ void main(void){
   
   ADC1 -> SMPR1 |= 7 << 3;                      //imposto il sampling time del canale 1 di ADC1
   
-  
+  TIMER3_set(65535, TIMER3_PSC_wait_ms(500) , 1);
+
   while(1){
     
     
@@ -86,11 +79,14 @@ void main(void){
     
     cnt = 0;
     
-       
+  TIMER3_set(65535, TIMER3_PSC_wait_ms(1000) , 1);
+  
   media =  mean(acquisition, 15);
-  wait_ms(1000);
+  //wait_ms(1000);
+  wait_next_acquisition();
   printf("MEAN: %.3f V\n",media);
-  wait_ms(1000);
+  //wait_ms(1000);
+  wait_next_acquisition();
   dev_std = std_dev(acquisition, media, 15);
   printf("STD_DEV: %.3f V\n", dev_std); 
     
