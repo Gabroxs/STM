@@ -19,28 +19,25 @@ float mean(float values[], unsigned int N){
 
 float std_dev(float values[], float mean, unsigned int N){
   
-  float acc = 0;
-  float appoggio = 0;
+  float std_dev = 0;
+  float partial = 0;
   
   for(size_t i = 0; i < 15; i++){
     
-    appoggio = pow((values[i] - mean), 2);
-    acc += appoggio;
+    partial = pow((values[i] - mean), 2);
+    std_dev += partial;
   
   }
 
-  return (sqrt(acc * 1/N));
+  return (sqrt(std_dev * 1/N));
   
 }
 
 void wait_next_acquisition(void){
-  
-   
+     
   while((TIMER3 -> SR & UIF) != (1 << 0));
   TIMER3 -> SR &= ~UIF;
-  //TIMER3 -> CNT = 0;
-  //printf("Sono in next_acquisition\n");
-  
+   
   
 }
 
@@ -80,10 +77,48 @@ void ADC1_vreg_en(void){
 }
 
 
+  
+
 void TIMER3_set(unsigned int arr, unsigned int psc, _Bool enable){
   
   TIMER3 -> ARR = arr;                
   TIMER3 -> PSC = psc;       
   TIMER3 -> CR1 |= enable;
     
+}
+
+
+unsigned int TIMER3_PSC_wait_ms(float delta_t){
+  
+  const float TCK = 0.000125;
+  const unsigned int ARR = 65535;
+  float diff_delta_t[2];
+  
+  unsigned int PSC = (unsigned int) roundf((delta_t / (ARR * TCK)) - 1);
+  printf("%u\n", PSC);
+  
+  diff_delta_t[0] = fabsf((ARR * (PSC + 1) * TCK) - delta_t);
+  diff_delta_t[1] = fabsf((ARR * PSC * TCK) - delta_t);
+    
+  for(size_t i = 0; i < 2; i++){
+      
+      printf("%f\n", diff_delta_t[i]);
+  
+  }
+    
+  
+  if(diff_delta_t[0] >= diff_delta_t[1]){
+    
+    return (PSC + 1);
+    
+  }
+  
+  if(diff_delta_t[0] < diff_delta_t[1]){
+    
+    return PSC;
+    
+  }
+  
+  return 0;
+  
 }
