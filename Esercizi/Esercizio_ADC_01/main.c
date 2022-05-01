@@ -38,6 +38,8 @@ void main(void){
   TIMER3_set(65535, TIMER3_PSC_wait_ms(0.01) , 1);
 
   //wait_us(10);
+
+  wait_TIMER3();  //wait 10 us con timer3
   
   ADC1_2 -> CCR |= 1 << 16;             //impostazione clock da AHB per ADC1_2
   ADC1 -> DIFSEL &= ~(1 << 1);          //impostazione canale ADC1_IN1 come single-ended
@@ -73,7 +75,7 @@ void main(void){
     
       printf("%.3f V\n", voltage);
     
-      wait_next_acquisition();
+      wait_TIMER3();
     
     }
     
@@ -81,15 +83,18 @@ void main(void){
     
   TIMER3_set(65535, TIMER3_PSC_wait_ms(1000) , 1);
   
-  media =  mean(acquisition, 15);
-  //wait_ms(1000);
-  wait_next_acquisition();
-  printf("MEAN: %.3f V\n",media);
-  //wait_ms(1000);
-  wait_next_acquisition();
-  dev_std = std_dev(acquisition, media, 15);
-  printf("STD_DEV: %.3f V\n", dev_std); 
+media =  mean(acquisition, 15);
+//wait_ms(1000);
+//wait_next_acquisition();
+wait_TIMER3();
+printf("MEAN: %.3f V\n",media);
+//wait_ms(1000);
+//wait_next_acquisition();
+wait_TIMER3();
+dev_std = std_dev(acquisition, media, 15);
+printf("STD_DEV: %.3f V\n", dev_std); 
     
 }
+
 }
  

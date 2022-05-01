@@ -4,7 +4,7 @@
 #include <math.h>
 #include <stdbool.h>
 
-float mean(float values[], unsigned int N){
+float mean(const float values[], unsigned int N){
   
   float media = 0;
       
@@ -17,7 +17,7 @@ float mean(float values[], unsigned int N){
   
 }
 
-float std_dev(float values[], float mean, unsigned int N){
+float std_dev(const float values[], float mean, unsigned int N){
   
   float std_dev = 0;
   float partial = 0;
@@ -33,7 +33,7 @@ float std_dev(float values[], float mean, unsigned int N){
   
 }
 
-void wait_next_acquisition(void){
+void wait_TIMER3(void){
      
   while((TIMER3 -> SR & UIF) != (1 << 0));
   TIMER3 -> SR &= ~UIF;
@@ -113,12 +113,11 @@ unsigned int TIMER3_PSC_wait_ms(float delta_t){
     
   }
   
-  if(diff_delta_t[0] < diff_delta_t[1]){
+  else{
     
     return PSC;
     
   }
   
-  return 0;
-  
+    
 }
