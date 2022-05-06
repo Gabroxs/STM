@@ -8,7 +8,7 @@ float mean(const float values[], unsigned int N){
   
   float media = 0;
       
-  for(size_t i = 0; i < 15; i++){
+  for(size_t i = 0; i < N; i++){
     
     media += values[i];   
   }
@@ -22,7 +22,7 @@ float std_dev(const float values[], float mean, unsigned int N){
   float std_dev = 0;
   float partial = 0;
   
-  for(size_t i = 0; i < 15; i++){
+  for(size_t i = 0; i < N; i++){
     
     partial = pow((values[i] - mean), 2);
     std_dev += partial;
