@@ -1,0 +1,980 @@
+[
+  {
+    "ID": "c:@SA@Gpio_type",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "1",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@Gpio_type@FI@MODER",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "MODER",
+        "location": {
+          "column": "16",
+          "line": "3",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+        },
+        "name": "MODER",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_1_9"
+      },
+      {
+        "ID": "c:@SA@Gpio_type@FI@OTYPER",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "OTYPER",
+        "location": {
+          "column": "16",
+          "line": "4",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+        },
+        "name": "OTYPER",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_1_9"
+      },
+      {
+        "ID": "c:@SA@Gpio_type@FI@OSPEEDR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "OSPEEDR",
+        "location": {
+          "column": "16",
+          "line": "5",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+        },
+        "name": "OSPEEDR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_1_9"
+      },
+      {
+        "ID": "c:@SA@Gpio_type@FI@PUPDR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PUPDR",
+        "location": {
+          "column": "16",
+          "line": "6",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+        },
+        "name": "PUPDR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_1_9"
+      },
+      {
+        "ID": "c:@SA@Gpio_type@Ua",
+        "What": "Union",
+        "defdec": "Def",
+        "display": "",
+        "location": {
+          "column": "3",
+          "line": "8",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+        },
+        "members": [
+          {
+            "ID": "c:@SA@Gpio_type@Ua@FI@IDR",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "IDR",
+            "location": {
+              "column": "18",
+              "line": "10",
+              "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+            },
+            "name": "IDR",
+            "origin": "project_file",
+            "scope": "_anonymous_main_c_1_9::_anonymous_main_c_8_3"
+          },
+          {
+            "ID": "c:@SA@Gpio_type@Ua@Sa",
+            "What": "Struct",
+            "defdec": "Def",
+            "display": "",
+            "location": {
+              "column": "5",
+              "line": "11",
+              "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+            },
+            "members": [
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@USER_BUTTON",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "USER_BUTTON",
+                "location": {
+                  "column": "17",
+                  "line": "13",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "USER_BUTTON",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_8_3::_anonymous_main_c_11_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR1",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR1",
+                "location": {
+                  "column": "17",
+                  "line": "14",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "IDR1",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_8_3::_anonymous_main_c_11_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR2",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR2",
+                "location": {
+                  "column": "17",
+                  "line": "15",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "IDR2",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_8_3::_anonymous_main_c_11_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR3",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR3",
+                "location": {
+                  "column": "17",
+                  "line": "16",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "IDR3",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_8_3::_anonymous_main_c_11_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR4",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR4",
+                "location": {
+                  "column": "17",
+                  "line": "17",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "IDR4",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_8_3::_anonymous_main_c_11_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR5",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR5",
+                "location": {
+                  "column": "17",
+                  "line": "18",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "IDR5",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_8_3::_anonymous_main_c_11_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR6",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR6",
+                "location": {
+                  "column": "17",
+                  "line": "19",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "IDR6",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_8_3::_anonymous_main_c_11_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR7",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR7",
+                "location": {
+                  "column": "17",
+                  "line": "20",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "IDR7",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_8_3::_anonymous_main_c_11_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR8",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR8",
+                "location": {
+                  "column": "17",
+                  "line": "21",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "IDR8",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_8_3::_anonymous_main_c_11_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR9",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR9",
+                "location": {
+                  "column": "17",
+                  "line": "22",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "IDR9",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_8_3::_anonymous_main_c_11_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR10",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR10",
+                "location": {
+                  "column": "17",
+                  "line": "23",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "IDR10",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_8_3::_anonymous_main_c_11_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR11",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR11",
+                "location": {
+                  "column": "17",
+                  "line": "24",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "IDR11",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_8_3::_anonymous_main_c_11_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR12",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR12",
+                "location": {
+                  "column": "17",
+                  "line": "25",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "IDR12",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_8_3::_anonymous_main_c_11_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR13",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR13",
+                "location": {
+                  "column": "17",
+                  "line": "26",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "IDR13",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_8_3::_anonymous_main_c_11_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR14",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR14",
+                "location": {
+                  "column": "17",
+                  "line": "27",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "IDR14",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_8_3::_anonymous_main_c_11_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR15",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR15",
+                "location": {
+                  "column": "17",
+                  "line": "28",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "IDR15",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_8_3::_anonymous_main_c_11_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDRX",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDRX",
+                "location": {
+                  "column": "17",
+                  "line": "29",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "IDRX",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_8_3::_anonymous_main_c_11_5"
+              }
+            ],
+            "name": "",
+            "origin": "project_file",
+            "scope": "_anonymous_main_c_1_9::_anonymous_main_c_8_3"
+          }
+        ],
+        "name": "",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_1_9"
+      },
+      {
+        "ID": "c:@SA@Gpio_type@Ua",
+        "What": "Union",
+        "defdec": "Def",
+        "display": "",
+        "location": {
+          "column": "3",
+          "line": "36",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+        },
+        "members": [
+          {
+            "ID": "c:@SA@Gpio_type@Ua@FI@ODR",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "ODR",
+            "location": {
+              "column": "18",
+              "line": "38",
+              "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+            },
+            "name": "ODR",
+            "origin": "project_file",
+            "scope": "_anonymous_main_c_1_9::_anonymous_main_c_36_3"
+          },
+          {
+            "ID": "c:@SA@Gpio_type@Ua@Sa",
+            "What": "Struct",
+            "defdec": "Def",
+            "display": "",
+            "location": {
+              "column": "5",
+              "line": "39",
+              "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+            },
+            "members": [
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR0",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR0",
+                "location": {
+                  "column": "17",
+                  "line": "41",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "ODR0",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_36_3::_anonymous_main_c_39_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR1",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR1",
+                "location": {
+                  "column": "17",
+                  "line": "42",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "ODR1",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_36_3::_anonymous_main_c_39_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR2",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR2",
+                "location": {
+                  "column": "17",
+                  "line": "43",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "ODR2",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_36_3::_anonymous_main_c_39_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR3",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR3",
+                "location": {
+                  "column": "17",
+                  "line": "44",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "ODR3",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_36_3::_anonymous_main_c_39_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR4",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR4",
+                "location": {
+                  "column": "17",
+                  "line": "45",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "ODR4",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_36_3::_anonymous_main_c_39_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR5",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR5",
+                "location": {
+                  "column": "17",
+                  "line": "46",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "ODR5",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_36_3::_anonymous_main_c_39_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR6",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR6",
+                "location": {
+                  "column": "17",
+                  "line": "47",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "ODR6",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_36_3::_anonymous_main_c_39_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR7",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR7",
+                "location": {
+                  "column": "17",
+                  "line": "48",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "ODR7",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_36_3::_anonymous_main_c_39_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR8",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR8",
+                "location": {
+                  "column": "17",
+                  "line": "49",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "ODR8",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_36_3::_anonymous_main_c_39_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR9",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR9",
+                "location": {
+                  "column": "17",
+                  "line": "50",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "ODR9",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_36_3::_anonymous_main_c_39_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR10",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR10",
+                "location": {
+                  "column": "17",
+                  "line": "51",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "ODR10",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_36_3::_anonymous_main_c_39_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR11",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR11",
+                "location": {
+                  "column": "17",
+                  "line": "52",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "ODR11",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_36_3::_anonymous_main_c_39_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR12",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR12",
+                "location": {
+                  "column": "17",
+                  "line": "53",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "ODR12",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_36_3::_anonymous_main_c_39_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR13",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR13",
+                "location": {
+                  "column": "17",
+                  "line": "54",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "ODR13",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_36_3::_anonymous_main_c_39_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR14",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR14",
+                "location": {
+                  "column": "17",
+                  "line": "55",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "ODR14",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_36_3::_anonymous_main_c_39_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR15",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR15",
+                "location": {
+                  "column": "17",
+                  "line": "56",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "ODR15",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_36_3::_anonymous_main_c_39_5"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODRX",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODRX",
+                "location": {
+                  "column": "17",
+                  "line": "57",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+                },
+                "name": "ODRX",
+                "origin": "project_file",
+                "scope": "_anonymous_main_c_1_9::_anonymous_main_c_36_3::_anonymous_main_c_39_5"
+              }
+            ],
+            "name": "",
+            "origin": "project_file",
+            "scope": "_anonymous_main_c_1_9::_anonymous_main_c_36_3"
+          }
+        ],
+        "name": "",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_1_9"
+      },
+      {
+        "ID": "c:@T@Gpio_type",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct Gpio_type",
+        "location": {
+          "column": "2",
+          "line": "63",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+        },
+        "name": "Gpio_type",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_1_9"
+      }
+    ],
+    "name": "",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@SA@RCC_type",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "65",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@RCC_type@FI@CR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR",
+        "location": {
+          "column": "16",
+          "line": "67",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+        },
+        "name": "CR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_65_9"
+      },
+      {
+        "ID": "c:@SA@RCC_type@FI@CFGR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CFGR",
+        "location": {
+          "column": "16",
+          "line": "68",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+        },
+        "name": "CFGR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_65_9"
+      },
+      {
+        "ID": "c:@SA@RCC_type@FI@CIR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CIR",
+        "location": {
+          "column": "16",
+          "line": "69",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+        },
+        "name": "CIR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_65_9"
+      },
+      {
+        "ID": "c:@SA@RCC_type@FI@APD2RSTR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "APD2RSTR",
+        "location": {
+          "column": "16",
+          "line": "70",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+        },
+        "name": "APD2RSTR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_65_9"
+      },
+      {
+        "ID": "c:@SA@RCC_type@FI@APB1RSTR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "APB1RSTR",
+        "location": {
+          "column": "16",
+          "line": "71",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+        },
+        "name": "APB1RSTR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_65_9"
+      },
+      {
+        "ID": "c:@SA@RCC_type@FI@AHBENR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "AHBENR",
+        "location": {
+          "column": "16",
+          "line": "72",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+        },
+        "name": "AHBENR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_65_9"
+      },
+      {
+        "ID": "c:@T@RCC_type",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct RCC_type",
+        "location": {
+          "column": "2",
+          "line": "74",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+        },
+        "name": "RCC_type",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_65_9"
+      }
+    ],
+    "name": "",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2491@macro@RCC_AHBENR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_AHBENR",
+    "location": {
+      "column": "9",
+      "line": "78",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+    },
+    "name": "RCC_AHBENR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2539@macro@GPIOE_MODER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOE_MODER",
+    "location": {
+      "column": "9",
+      "line": "79",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+    },
+    "name": "GPIOE_MODER",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2587@macro@GPIOE_ODR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOE_ODR",
+    "location": {
+      "column": "9",
+      "line": "80",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+    },
+    "name": "GPIOE_ODR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2635@macro@GPIOA_MODER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_MODER",
+    "location": {
+      "column": "9",
+      "line": "81",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+    },
+    "name": "GPIOA_MODER",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2683@macro@GPIOA_IDR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_IDR",
+    "location": {
+      "column": "9",
+      "line": "82",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+    },
+    "name": "GPIOA_IDR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2734@macro@GPIOA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA",
+    "location": {
+      "column": "9",
+      "line": "84",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+    },
+    "name": "GPIOA",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2879@macro@GPIOE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOE",
+    "location": {
+      "column": "9",
+      "line": "85",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+    },
+    "name": "GPIOE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2920@macro@RCC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC",
+    "location": {
+      "column": "9",
+      "line": "86",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+    },
+    "name": "RCC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2960@macro@GPIOAEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOAEN",
+    "location": {
+      "column": "9",
+      "line": "88",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+    },
+    "name": "GPIOAEN",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2987@macro@GPIOEEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOEEN",
+    "location": {
+      "column": "9",
+      "line": "89",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+    },
+    "name": "GPIOEEN",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@punt",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "punt",
+    "location": {
+      "column": "15",
+      "line": "91",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+    },
+    "name": "punt",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "94",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@3808@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "11",
+      "line": "128",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@4192@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "11",
+      "line": "145",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@4386@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "11",
+      "line": "155",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\strutture_dati_lez4\\main.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  }
+]
