@@ -1,3 +1,6 @@
+#ifndef STRUTTURA_H
+#define STRUTTURA_H
+
 typedef struct{
 	
 
@@ -199,6 +202,26 @@ typedef struct{
   
 }ADC_type;
 
+typedef struct{
+
+  unsigned int CR;
+  unsigned int SWTRIGR;
+  unsigned int DHR12R1;
+  unsigned int DHR12L1;
+  unsigned int DHR8R1;
+  unsigned int DHR12R2;
+  unsigned int DHR12L2;
+  unsigned int DHR8R2;
+  unsigned int DHR12RD;
+  unsigned int DHR12LD;
+  unsigned int DHR8RD;
+  unsigned int DOR1;
+  unsigned int DOR2;
+  unsigned int SR;
+
+}DAC_type;
+
+
 
 
 #define RCC ((RCC_type*) 0x40021000)
@@ -206,6 +229,7 @@ typedef struct{
 #define GPIOA ((Gpio_type*) 0x48000000)
 #define TIMER2 ((Timer_type*) 0x40000000)
 #define TIMER3 ((Timer_type*) 0x40000400)
+#define DAC1 ((DAC_type*) 0x40007400)
 
 
 #define GPIOAEN  (1 << 17)
@@ -226,6 +250,10 @@ typedef struct{
 #define ADC34EN (1 << 29)
 #define ADC_CAL ((unsigned int) (1 << 31))
 #define ADC_CAL_DIFF ((unsigned int) (1 << 30))
+
+#define EN1 1
+#define BOFF1 (1 << 1)
+#define DACEN (1 << 29)
 
 typedef struct{
   
@@ -254,3 +282,6 @@ typedef struct{
   unsigned int CR1;
   
 }Timer_cfg;
+
+
+#endif
