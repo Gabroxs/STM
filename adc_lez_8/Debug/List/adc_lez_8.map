@@ -1,0 +1,221 @@
+###############################################################################
+#
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  25/Apr/2022  19:18:06
+# Copyright 2007-2022 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\Gabriele\OneDrive - Università di Napoli Federico
+#        II\Università\MAGISTRALE\STM\PROGRAMMI\adc_lez_8\Debug\Exe\adc_lez_8.out
+#    Map file     =
+#        C:\Users\Gabriele\OneDrive - Università di Napoli Federico
+#        II\Università\MAGISTRALE\STM\PROGRAMMI\adc_lez_8\Debug\List\adc_lez_8.map
+#    Command line =
+#        -f "C:\Users\Gabriele\OneDrive - Università di Napoli Federico
+#        II\Università\MAGISTRALE\STM\PROGRAMMI\adc_lez_8\Debug\Exe\adc_lez_8.out.rsp"
+#        ("C:\Users\Gabriele\OneDrive - Università di Napoli Federico
+#        II\Università\MAGISTRALE\STM\PROGRAMMI\adc_lez_8\Debug\Obj\main.o"
+#        --no_out_extension -o "C:\Users\Gabriele\OneDrive - Università di
+#        Napoli Federico
+#        II\Università\MAGISTRALE\STM\PROGRAMMI\adc_lez_8\Debug\Exe\adc_lez_8.out"
+#        --map "C:\Users\Gabriele\OneDrive - Università di Napoli Federico
+#        II\Università\MAGISTRALE\STM\PROGRAMMI\adc_lez_8\Debug\List\adc_lez_8.map"
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.0\arm\config\linker\ST\stm32f303xC.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x803'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'9fff] {
+          rw, block CSTACK, block HEAP };
+
+No sections matched the following patterns:
+
+  section .ccmram  in "P3"
+
+
+  Section          Kind         Address    Size  Object
+  -------          ----         -------    ----  ------
+"A0":                                      0x40
+  .intvec          ro code   0x800'0000    0x40  vector_table_M.o [4]
+                           - 0x800'0040    0x40
+
+"P1":                                     0x410
+  .text            ro code   0x800'0040   0x1aa  DblMul.o [3]
+  .text            ro code   0x800'01ea     0x2  vectortrap_M.o [4]
+  .text            ro code   0x800'01ec    0xe8  main.o [1]
+  .text            ro code   0x800'02d4    0x1c  U32ToDbl.o [3]
+  .text            ro code   0x800'02f0    0x68  DblToFlt.o [3]
+  .text            ro code   0x800'0358    0x38  zero_init3.o [4]
+  .text            ro code   0x800'0390    0x28  data_init.o [4]
+  .text            ro code   0x800'03b8    0x22  fpinit_M.o [3]
+  .iar.init_table  const     0x800'03dc    0x10  - Linker created -
+  .text            ro code   0x800'03ec    0x1e  cmain.o [4]
+  .text            ro code   0x800'040a     0x4  low_level_init.o [2]
+  .text            ro code   0x800'040e     0x4  exit.o [2]
+  .text            ro code   0x800'0414     0xa  cexit.o [4]
+  .text            ro code   0x800'0420    0x14  exit.o [5]
+  .text            ro code   0x800'0434    0x1c  cstartup_M.o [4]
+  .rodata          const     0x800'0450     0x0  zero_init3.o [4]
+                           - 0x800'0450   0x410
+
+"P2", part 1 of 2:                          0x8
+  .bss             zero     0x2000'0000     0x4  main.o [1]
+  .bss             zero     0x2000'0004     0x4  main.o [1]
+                          - 0x2000'0008     0x8
+
+"P2", part 2 of 2:                       0x2000
+  CSTACK                    0x2000'0008  0x2000  <Block>
+    CSTACK         uninit   0x2000'0008  0x2000  <Block tail>
+                          - 0x2000'2008  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'0450   0x803'ffff  0x3'fbb0
+  0x2000'2008  0x2000'9fff    0x7ff8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x8:
+          0x2000'0000   0x8
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+C:\Users\Gabriele\OneDrive - Università di Napoli Federico II\Università\MAGISTRALE\STM\PROGRAMMI\adc_lez_8\Debug\Obj: [1]
+    main.o                232                 8
+    -------------------------------------------
+    Total:                232                 8
+
+dl7M_tln.a: [2]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+m7M_tls.a: [3]
+    DblMul.o              426
+    DblToFlt.o            104
+    U32ToDbl.o             28
+    fpinit_M.o             34
+    -------------------------------------------
+    Total:                592
+
+rt7M_tl.a: [4]
+    cexit.o                10
+    cmain.o                30
+    cstartup_M.o           28
+    data_init.o            40
+    vector_table_M.o       64
+    vectortrap_M.o          2
+    zero_init3.o           56
+    -------------------------------------------
+    Total:                230
+
+shb_l.a: [5]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Gaps                    4        2
+    Linker created                  16    8'192
+-----------------------------------------------
+    Grand Total:        1'086       18    8'200
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base    0x800'03dc         --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'03ec         --   Gb  - Linker created -
+?main                    0x800'03ed        Code  Gb  cmain.o [4]
+BusFault_Handler         0x800'01eb        Code  Wk  vectortrap_M.o [4]
+CSTACK$$Base            0x2000'0008         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'2008         --   Gb  - Linker created -
+DebugMon_Handler         0x800'01eb        Code  Wk  vectortrap_M.o [4]
+HardFault_Handler        0x800'01eb        Code  Wk  vectortrap_M.o [4]
+MemManage_Handler        0x800'01eb        Code  Wk  vectortrap_M.o [4]
+NMI_Handler              0x800'01eb        Code  Wk  vectortrap_M.o [4]
+PendSV_Handler           0x800'01eb        Code  Wk  vectortrap_M.o [4]
+Region$$Table$$Base      0x800'03dc         --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'03ec         --   Gb  - Linker created -
+SVC_Handler              0x800'01eb        Code  Wk  vectortrap_M.o [4]
+SysTick_Handler          0x800'01eb        Code  Wk  vectortrap_M.o [4]
+UsageFault_Handler       0x800'01eb        Code  Wk  vectortrap_M.o [4]
+__aeabi_d2f              0x800'02f1        Code  Gb  DblToFlt.o [3]
+__aeabi_dmul             0x800'0041        Code  Gb  DblMul.o [3]
+__aeabi_ui2d             0x800'02d5        Code  Gb  U32ToDbl.o [3]
+__cmain                  0x800'03ed        Code  Gb  cmain.o [4]
+__exit                   0x800'0421  0x14  Code  Gb  exit.o [5]
+__iar_data_init3         0x800'0391  0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp           0x800'03b9        Code  Gb  fpinit_M.o [3]
+__iar_program_start      0x800'0435        Code  Gb  cstartup_M.o [4]
+__iar_zero_init3         0x800'0359  0x38  Code  Gb  zero_init3.o [4]
+__low_level_init         0x800'040b   0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000        Data  Gb  vector_table_M.o [4]
+_call_main               0x800'03f9        Code  Gb  cmain.o [4]
+_exit                    0x800'0415        Code  Gb  cexit.o [4]
+exit                     0x800'040f   0x4  Code  Gb  exit.o [2]
+main                     0x800'01ed  0xe8  Code  Gb  main.o [1]
+volt                    0x2000'0004   0x4  Data  Gb  main.o [1]
+voltage                 0x2000'0000   0x4  Data  Gb  main.o [1]
+
+
+[1] = C:\Users\Gabriele\OneDrive - Università di Napoli Federico II\Università\MAGISTRALE\STM\PROGRAMMI\adc_lez_8\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  1'086 bytes of readonly  code memory
+     18 bytes of readonly  data memory
+  8'200 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

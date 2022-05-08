@@ -1,0 +1,1390 @@
+[
+  {
+    "ID": "c:@SA@Gpio_type",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "1",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@Gpio_type@FI@MODER",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "MODER",
+        "location": {
+          "column": "15",
+          "line": "3",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "MODER",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_1_9"
+      },
+      {
+        "ID": "c:@SA@Gpio_type@FI@OTYPER",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "OTYPER",
+        "location": {
+          "column": "15",
+          "line": "4",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "OTYPER",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_1_9"
+      },
+      {
+        "ID": "c:@SA@Gpio_type@FI@OSPEEDR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "OSPEEDR",
+        "location": {
+          "column": "15",
+          "line": "5",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "OSPEEDR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_1_9"
+      },
+      {
+        "ID": "c:@SA@Gpio_type@FI@PUPDR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PUPDR",
+        "location": {
+          "column": "15",
+          "line": "6",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "PUPDR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_1_9"
+      },
+      {
+        "ID": "c:@SA@Gpio_type@Ua",
+        "What": "Union",
+        "defdec": "Def",
+        "display": "",
+        "location": {
+          "column": "9",
+          "line": "7",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "members": [
+          {
+            "ID": "c:@SA@Gpio_type@Ua@FI@IDR",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "IDR",
+            "location": {
+              "column": "24",
+              "line": "9",
+              "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+            },
+            "name": "IDR",
+            "origin": "user_include",
+            "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_7_9"
+          },
+          {
+            "ID": "c:@SA@Gpio_type@Ua@Sa",
+            "What": "Struct",
+            "defdec": "Def",
+            "display": "",
+            "location": {
+              "column": "11",
+              "line": "10",
+              "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+            },
+            "members": [
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR0",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR0",
+                "location": {
+                  "column": "23",
+                  "line": "12",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "IDR0",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_7_9::_anonymous_struttura_h_10_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR1",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR1",
+                "location": {
+                  "column": "23",
+                  "line": "13",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "IDR1",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_7_9::_anonymous_struttura_h_10_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR2",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR2",
+                "location": {
+                  "column": "23",
+                  "line": "14",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "IDR2",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_7_9::_anonymous_struttura_h_10_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR3",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR3",
+                "location": {
+                  "column": "23",
+                  "line": "15",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "IDR3",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_7_9::_anonymous_struttura_h_10_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR4",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR4",
+                "location": {
+                  "column": "23",
+                  "line": "16",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "IDR4",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_7_9::_anonymous_struttura_h_10_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR5",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR5",
+                "location": {
+                  "column": "23",
+                  "line": "17",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "IDR5",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_7_9::_anonymous_struttura_h_10_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR6",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR6",
+                "location": {
+                  "column": "23",
+                  "line": "18",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "IDR6",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_7_9::_anonymous_struttura_h_10_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR7",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR7",
+                "location": {
+                  "column": "23",
+                  "line": "19",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "IDR7",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_7_9::_anonymous_struttura_h_10_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR8",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR8",
+                "location": {
+                  "column": "23",
+                  "line": "20",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "IDR8",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_7_9::_anonymous_struttura_h_10_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR9",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR9",
+                "location": {
+                  "column": "23",
+                  "line": "21",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "IDR9",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_7_9::_anonymous_struttura_h_10_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR10",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR10",
+                "location": {
+                  "column": "23",
+                  "line": "22",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "IDR10",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_7_9::_anonymous_struttura_h_10_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR11",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR11",
+                "location": {
+                  "column": "23",
+                  "line": "23",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "IDR11",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_7_9::_anonymous_struttura_h_10_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR12",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR12",
+                "location": {
+                  "column": "23",
+                  "line": "24",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "IDR12",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_7_9::_anonymous_struttura_h_10_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR13",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR13",
+                "location": {
+                  "column": "23",
+                  "line": "25",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "IDR13",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_7_9::_anonymous_struttura_h_10_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR14",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR14",
+                "location": {
+                  "column": "23",
+                  "line": "26",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "IDR14",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_7_9::_anonymous_struttura_h_10_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDR15",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR15",
+                "location": {
+                  "column": "23",
+                  "line": "27",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "IDR15",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_7_9::_anonymous_struttura_h_10_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@IDRX",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDRX",
+                "location": {
+                  "column": "23",
+                  "line": "28",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "IDRX",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_7_9::_anonymous_struttura_h_10_11"
+              }
+            ],
+            "name": "",
+            "origin": "user_include",
+            "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_7_9"
+          }
+        ],
+        "name": "",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_1_9"
+      },
+      {
+        "ID": "c:@SA@Gpio_type@Ua",
+        "What": "Union",
+        "defdec": "Def",
+        "display": "",
+        "location": {
+          "column": "9",
+          "line": "33",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "members": [
+          {
+            "ID": "c:@SA@Gpio_type@Ua@FI@ODR",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "ODR",
+            "location": {
+              "column": "24",
+              "line": "34",
+              "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+            },
+            "name": "ODR",
+            "origin": "user_include",
+            "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_33_9"
+          },
+          {
+            "ID": "c:@SA@Gpio_type@Ua@Sa",
+            "What": "Struct",
+            "defdec": "Def",
+            "display": "",
+            "location": {
+              "column": "11",
+              "line": "35",
+              "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+            },
+            "members": [
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR0",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR0",
+                "location": {
+                  "column": "23",
+                  "line": "37",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "ODR0",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_33_9::_anonymous_struttura_h_35_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR1",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR1",
+                "location": {
+                  "column": "23",
+                  "line": "38",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "ODR1",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_33_9::_anonymous_struttura_h_35_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR2",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR2",
+                "location": {
+                  "column": "23",
+                  "line": "39",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "ODR2",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_33_9::_anonymous_struttura_h_35_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR3",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR3",
+                "location": {
+                  "column": "23",
+                  "line": "40",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "ODR3",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_33_9::_anonymous_struttura_h_35_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR4",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR4",
+                "location": {
+                  "column": "23",
+                  "line": "41",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "ODR4",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_33_9::_anonymous_struttura_h_35_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR5",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR5",
+                "location": {
+                  "column": "23",
+                  "line": "42",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "ODR5",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_33_9::_anonymous_struttura_h_35_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR6",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR6",
+                "location": {
+                  "column": "23",
+                  "line": "43",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "ODR6",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_33_9::_anonymous_struttura_h_35_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR7",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR7",
+                "location": {
+                  "column": "23",
+                  "line": "44",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "ODR7",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_33_9::_anonymous_struttura_h_35_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR8",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR8",
+                "location": {
+                  "column": "23",
+                  "line": "45",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "ODR8",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_33_9::_anonymous_struttura_h_35_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR9",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR9",
+                "location": {
+                  "column": "23",
+                  "line": "46",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "ODR9",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_33_9::_anonymous_struttura_h_35_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR10",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR10",
+                "location": {
+                  "column": "23",
+                  "line": "47",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "ODR10",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_33_9::_anonymous_struttura_h_35_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR11",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR11",
+                "location": {
+                  "column": "23",
+                  "line": "48",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "ODR11",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_33_9::_anonymous_struttura_h_35_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR12",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR12",
+                "location": {
+                  "column": "23",
+                  "line": "49",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "ODR12",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_33_9::_anonymous_struttura_h_35_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR13",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR13",
+                "location": {
+                  "column": "23",
+                  "line": "50",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "ODR13",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_33_9::_anonymous_struttura_h_35_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR14",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR14",
+                "location": {
+                  "column": "23",
+                  "line": "51",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "ODR14",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_33_9::_anonymous_struttura_h_35_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODR15",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR15",
+                "location": {
+                  "column": "23",
+                  "line": "52",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "ODR15",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_33_9::_anonymous_struttura_h_35_11"
+              },
+              {
+                "ID": "c:@SA@Gpio_type@Ua@Sa@FI@ODRX",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODRX",
+                "location": {
+                  "column": "23",
+                  "line": "53",
+                  "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+                },
+                "name": "ODRX",
+                "origin": "user_include",
+                "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_33_9::_anonymous_struttura_h_35_11"
+              }
+            ],
+            "name": "",
+            "origin": "user_include",
+            "scope": "_anonymous_struttura_h_1_9::_anonymous_struttura_h_33_9"
+          }
+        ],
+        "name": "",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_1_9"
+      },
+      {
+        "ID": "c:@SA@Gpio_type@FI@BSRR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BSRR",
+        "location": {
+          "column": "15",
+          "line": "59",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "BSRR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_1_9"
+      },
+      {
+        "ID": "c:@SA@Gpio_type@FI@LCKR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "LCKR",
+        "location": {
+          "column": "15",
+          "line": "60",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "LCKR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_1_9"
+      },
+      {
+        "ID": "c:@SA@Gpio_type@FI@AFRL",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "AFRL",
+        "location": {
+          "column": "15",
+          "line": "61",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "AFRL",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_1_9"
+      },
+      {
+        "ID": "c:@SA@Gpio_type@FI@AFRH",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "AFRH",
+        "location": {
+          "column": "15",
+          "line": "62",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "AFRH",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_1_9"
+      },
+      {
+        "ID": "c:@SA@Gpio_type@FI@BRR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BRR",
+        "location": {
+          "column": "15",
+          "line": "63",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "BRR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_1_9"
+      },
+      {
+        "ID": "c:@T@Gpio_type",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct Gpio_type",
+        "location": {
+          "column": "2",
+          "line": "65",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "Gpio_type",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_1_9"
+      }
+    ],
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@SA@RCC_type",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "68",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@RCC_type@FI@CR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR",
+        "location": {
+          "column": "15",
+          "line": "70",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "CR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_68_9"
+      },
+      {
+        "ID": "c:@SA@RCC_type@FI@CFGR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CFGR",
+        "location": {
+          "column": "15",
+          "line": "71",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "CFGR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_68_9"
+      },
+      {
+        "ID": "c:@SA@RCC_type@FI@CIR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CIR",
+        "location": {
+          "column": "15",
+          "line": "72",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "CIR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_68_9"
+      },
+      {
+        "ID": "c:@SA@RCC_type@FI@APD2RSTR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "APD2RSTR",
+        "location": {
+          "column": "15",
+          "line": "73",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "APD2RSTR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_68_9"
+      },
+      {
+        "ID": "c:@SA@RCC_type@FI@APB1RSTR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "APB1RSTR",
+        "location": {
+          "column": "15",
+          "line": "74",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "APB1RSTR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_68_9"
+      },
+      {
+        "ID": "c:@SA@RCC_type@FI@AHBENR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "AHBENR",
+        "location": {
+          "column": "15",
+          "line": "75",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "AHBENR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_68_9"
+      },
+      {
+        "ID": "c:@SA@RCC_type@FI@APB2ENR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "APB2ENR",
+        "location": {
+          "column": "15",
+          "line": "76",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "APB2ENR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_68_9"
+      },
+      {
+        "ID": "c:@SA@RCC_type@FI@APB1ENR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "APB1ENR",
+        "location": {
+          "column": "15",
+          "line": "77",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "APB1ENR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_68_9"
+      },
+      {
+        "ID": "c:@SA@RCC_type@FI@BDCR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BDCR",
+        "location": {
+          "column": "15",
+          "line": "78",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "BDCR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_68_9"
+      },
+      {
+        "ID": "c:@SA@RCC_type@FI@CSR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CSR",
+        "location": {
+          "column": "15",
+          "line": "79",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "CSR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_68_9"
+      },
+      {
+        "ID": "c:@SA@RCC_type@FI@AHBRSTR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "AHBRSTR",
+        "location": {
+          "column": "15",
+          "line": "80",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "AHBRSTR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_68_9"
+      },
+      {
+        "ID": "c:@SA@RCC_type@FI@CFGR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CFGR2",
+        "location": {
+          "column": "15",
+          "line": "81",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "CFGR2",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_68_9"
+      },
+      {
+        "ID": "c:@SA@RCC_type@FI@CFGR3",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CFGR3",
+        "location": {
+          "column": "15",
+          "line": "82",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "CFGR3",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_68_9"
+      },
+      {
+        "ID": "c:@T@RCC_type",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct RCC_type",
+        "location": {
+          "column": "2",
+          "line": "84",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "RCC_type",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_68_9"
+      }
+    ],
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@SA@Timer_type",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "86",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@Timer_type@FI@CR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR1",
+        "location": {
+          "column": "15",
+          "line": "88",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "CR1",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_86_9"
+      },
+      {
+        "ID": "c:@SA@Timer_type@FI@CR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR2",
+        "location": {
+          "column": "15",
+          "line": "89",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "CR2",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_86_9"
+      },
+      {
+        "ID": "c:@SA@Timer_type@FI@SMCR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "SMCR",
+        "location": {
+          "column": "15",
+          "line": "90",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "SMCR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_86_9"
+      },
+      {
+        "ID": "c:@SA@Timer_type@FI@DIER",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "DIER",
+        "location": {
+          "column": "15",
+          "line": "91",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "DIER",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_86_9"
+      },
+      {
+        "ID": "c:@SA@Timer_type@FI@SR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "SR",
+        "location": {
+          "column": "15",
+          "line": "92",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "SR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_86_9"
+      },
+      {
+        "ID": "c:@SA@Timer_type@FI@EGR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "EGR",
+        "location": {
+          "column": "15",
+          "line": "93",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "EGR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_86_9"
+      },
+      {
+        "ID": "c:@SA@Timer_type@FI@CCMR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CCMR1",
+        "location": {
+          "column": "15",
+          "line": "94",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "CCMR1",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_86_9"
+      },
+      {
+        "ID": "c:@SA@Timer_type@FI@CCMR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CCMR2",
+        "location": {
+          "column": "15",
+          "line": "95",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "CCMR2",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_86_9"
+      },
+      {
+        "ID": "c:@SA@Timer_type@FI@CCER",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CCER",
+        "location": {
+          "column": "15",
+          "line": "96",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "CCER",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_86_9"
+      },
+      {
+        "ID": "c:@SA@Timer_type@FI@CNT",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CNT",
+        "location": {
+          "column": "22",
+          "line": "97",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "CNT",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_86_9"
+      },
+      {
+        "ID": "c:@SA@Timer_type@FI@PSC",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PSC",
+        "location": {
+          "column": "15",
+          "line": "98",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "PSC",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_86_9"
+      },
+      {
+        "ID": "c:@SA@Timer_type@FI@ARR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "ARR",
+        "location": {
+          "column": "15",
+          "line": "99",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "ARR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_86_9"
+      },
+      {
+        "ID": "c:@SA@Timer_type@FI@CCR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CCR1",
+        "location": {
+          "column": "15",
+          "line": "100",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "CCR1",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_86_9"
+      },
+      {
+        "ID": "c:@SA@Timer_type@FI@CCR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CCR2",
+        "location": {
+          "column": "15",
+          "line": "101",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "CCR2",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_86_9"
+      },
+      {
+        "ID": "c:@SA@Timer_type@FI@CCR3",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CCR3",
+        "location": {
+          "column": "15",
+          "line": "102",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "CCR3",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_86_9"
+      },
+      {
+        "ID": "c:@SA@Timer_type@FI@CCR4",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CCR4",
+        "location": {
+          "column": "15",
+          "line": "103",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "CCR4",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_86_9"
+      },
+      {
+        "ID": "c:@SA@Timer_type@FI@RESERVED",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "RESERVED",
+        "location": {
+          "column": "15",
+          "line": "104",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "RESERVED",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_86_9"
+      },
+      {
+        "ID": "c:@SA@Timer_type@FI@DCR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "DCR",
+        "location": {
+          "column": "15",
+          "line": "105",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "DCR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_86_9"
+      },
+      {
+        "ID": "c:@SA@Timer_type@FI@DMAR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "DMAR",
+        "location": {
+          "column": "15",
+          "line": "106",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "DMAR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_86_9"
+      },
+      {
+        "ID": "c:@T@Timer_type",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct Timer_type",
+        "location": {
+          "column": "2",
+          "line": "108",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "Timer_type",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_86_9"
+      }
+    ],
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@SA@Timer_cfg",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "111",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@Timer_cfg@FI@CR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR1",
+        "location": {
+          "column": "16",
+          "line": "113",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "CR1",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_111_9"
+      },
+      {
+        "ID": "c:@SA@Timer_cfg@FI@ARR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "ARR",
+        "location": {
+          "column": "16",
+          "line": "114",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "ARR",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_111_9"
+      },
+      {
+        "ID": "c:@T@Timer_cfg",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct Timer_cfg",
+        "location": {
+          "column": "2",
+          "line": "116",
+          "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\struttura.h"
+        },
+        "name": "Timer_cfg",
+        "origin": "user_include",
+        "scope": "_anonymous_struttura_h_111_9"
+      }
+    ],
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@212@macro@GPIOE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOE",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\main.c"
+    },
+    "name": "GPIOE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@253@macro@RCC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\main.c"
+    },
+    "name": "RCC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@291@macro@TIMER2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER2",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\main.c"
+    },
+    "name": "TIMER2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@init_timer",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void init_timer(Timer_type *, Timer_cfg *)",
+    "location": {
+      "column": "6",
+      "line": "16",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\main.c"
+    },
+    "name": "init_timer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@config",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "config",
+    "location": {
+      "column": "18",
+      "line": "17",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\main.c"
+    },
+    "name": "config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "22",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@init_timer",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void init_timer(Timer_type *, Timer_cfg *)",
+    "location": {
+      "column": "6",
+      "line": "71",
+      "path": "C:\\Users\\gabri\\Desktop\\STM\\programmi\\timer_lez7\\main.c"
+    },
+    "name": "init_timer",
+    "origin": "project_file",
+    "scope": null
+  }
+]
