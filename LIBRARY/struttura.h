@@ -225,14 +225,19 @@ typedef struct{
 
 
 #define RCC ((RCC_type*) 0x40021000)
+
 #define GPIOE ((Gpio_type*) 0x48001000)
 #define GPIOA ((Gpio_type*) 0x48000000)
+#define GPIOC ((Gpio_type*) 0x48000800)
+
 #define TIMER2 ((Timer_type*) 0x40000000)
 #define TIMER3 ((Timer_type*) 0x40000400)
 #define DAC1 ((DAC_type*) 0x40007400)
 
 
 #define GPIOAEN  (1 << 17)
+#define GPIOCEN (1 << 19)
+
 #define TIMER2EN (1 << 0)
 #define TIMER3EN (1 << 1)
 #define UIF (1 << 0)
