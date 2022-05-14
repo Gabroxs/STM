@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.20.4.327/W64 for ARM                  13/May/2022  20:26:24
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  14/May/2022  18:42:00
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
@@ -64,7 +64,7 @@ No sections matched the following patterns:
   .intvec            ro code   0x800'0000    0x40  vector_table_M.o [4]
                              - 0x800'0040    0x40
 
-"P1":                                       0xb3c
+"P1":                                       0xd88
   .text              ro code   0x800'0040   0x3f0  cos_sin64.o [3]
   .text              ro code   0x800'0430   0x1aa  DblMul.o [3]
   .text              ro code   0x800'05da    0x2a  copy_init3.o [4]
@@ -73,27 +73,28 @@ No sections matched the following patterns:
   .text              ro code   0x800'0886     0x2  vectortrap_M.o [4]
   .text              ro code   0x800'0888    0x36  DblToS32.o [3]
   .text              ro code   0x800'08c0    0x22  S32ToDbl.o [3]
-  .text              ro code   0x800'08e4    0xa8  main.o [1]
-  .text              ro code   0x800'098c    0x1c  U32ToDbl.o [3]
-  .text              ro code   0x800'09a8    0x12  math_wrappers64.o [3]
-  .text              ro code   0x800'09bc    0x22  DblToU32.o [3]
-  .text              ro code   0x800'09e0    0x54  functions.o [1]
-  .text              ro code   0x800'0a34    0x38  zero_init3.o [4]
-  .text              ro code   0x800'0a6c    0x2c  iarttio.o [5]
-  .text              ro code   0x800'0a98     0x8  XShttio.o [2]
-  .text              ro code   0x800'0aa0    0x28  data_init.o [4]
-  .text              ro code   0x800'0ac8    0x22  fpinit_M.o [3]
-  .iar.init_table    const     0x800'0aec    0x24  - Linker created -
-  .text              ro code   0x800'0b10    0x1e  cmain.o [4]
-  .text              ro code   0x800'0b2e     0x4  low_level_init.o [2]
-  .text              ro code   0x800'0b32     0x4  exit.o [2]
-  .text              ro code   0x800'0b38     0xa  cexit.o [4]
-  .text              ro code   0x800'0b44    0x14  exit.o [5]
-  .text              ro code   0x800'0b58    0x1c  cstartup_M.o [4]
-  Initializer bytes  const     0x800'0b74     0x8  <for P2-1>
-  .rodata            const     0x800'0b7c     0x0  zero_init3.o [4]
-  .rodata            const     0x800'0b7c     0x0  copy_init3.o [4]
-                             - 0x800'0b7c   0xb3c
+  .text              ro code   0x800'08e4   0x246  DblDiv.o [3]
+  .text              ro code   0x800'0b2c    0x90  main.o [1]
+  .text              ro code   0x800'0bbc    0x70  functions.o [1]
+  .text              ro code   0x800'0c2c    0x1c  U32ToDbl.o [3]
+  .text              ro code   0x800'0c48    0x12  math_wrappers64.o [3]
+  .text              ro code   0x800'0c5c    0x22  DblToU32.o [3]
+  .text              ro code   0x800'0c7e    0x38  zero_init3.o [4]
+  .text              ro code   0x800'0cb8    0x2c  iarttio.o [5]
+  .text              ro code   0x800'0ce4     0x8  XShttio.o [2]
+  .text              ro code   0x800'0cec    0x28  data_init.o [4]
+  .text              ro code   0x800'0d14    0x22  fpinit_M.o [3]
+  .iar.init_table    const     0x800'0d38    0x24  - Linker created -
+  .text              ro code   0x800'0d5c    0x1e  cmain.o [4]
+  .text              ro code   0x800'0d7a     0x4  low_level_init.o [2]
+  .text              ro code   0x800'0d7e     0x4  exit.o [2]
+  .text              ro code   0x800'0d84     0xa  cexit.o [4]
+  .text              ro code   0x800'0d90    0x14  exit.o [5]
+  .text              ro code   0x800'0da4    0x1c  cstartup_M.o [4]
+  Initializer bytes  const     0x800'0dc0     0x8  <for P2-1>
+  .rodata            const     0x800'0dc8     0x0  zero_init3.o [4]
+  .rodata            const     0x800'0dc8     0x0  copy_init3.o [4]
+                             - 0x800'0dc8   0xd88
 
 "P2", part 1 of 3:                            0x8
   P2-1                        0x2000'0000     0x8  <Init block>
@@ -113,7 +114,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-   0x800'0b7c   0x803'ffff  0x3'f484
+   0x800'0dc8   0x803'ffff  0x3'f238
   0x2000'2198  0x2000'9fff    0x7e68
 
 
@@ -129,7 +130,7 @@ Zero (__iar_zero_init3)
 
 Copy (__iar_copy_init3)
     1 source range, total size 0x8:
-           0x800'0b74    0x8
+           0x800'0dc0    0x8
     1 destination range, total size 0x8:
           0x2000'0000    0x8
 
@@ -146,10 +147,10 @@ command line/config:
     Total:
 
 C:\Users\gabri\Desktop\STM-main\EXAMPLES\generator_lez_13\Debug\Obj: [1]
-    functions.o             84
-    main.o                 168               400
+    functions.o            112
+    main.o                 144               400
     --------------------------------------------
-    Total:                 252               400
+    Total:                 256               400
 
 dl7M_tln.a: [2]
     XShttio.o                8        8        8
@@ -161,6 +162,7 @@ dl7M_tln.a: [2]
 m7M_tls.a: [3]
     DblAddSub.o            590
     DblCmpLe.o              52
+    DblDiv.o               582
     DblMul.o               426
     DblToS32.o              54
     DblToU32.o              34
@@ -170,7 +172,7 @@ m7M_tls.a: [3]
     fpinit_M.o              34
     math_wrappers64.o       18
     --------------------------------------------
-    Total:               2'278
+    Total:               2'860
 
 rt7M_tl.a: [4]
     cexit.o                 10
@@ -190,10 +192,10 @@ shb_l.a: [5]
     --------------------------------------------
     Total:                  64
 
-    Gaps                    12        2
+    Gaps                    14        2
     Linker created                   36    8'192
 ------------------------------------------------
-    Grand Total:         2'894       46    8'600
+    Grand Total:         3'482       46    8'600
 
 
 *******************************************************************************
@@ -202,9 +204,9 @@ shb_l.a: [5]
 
 Entry                       Address   Size  Type      Object
 -----                       -------   ----  ----      ------
-.iar.init_table$$Base    0x800'0aec          --   Gb  - Linker created -
-.iar.init_table$$Limit   0x800'0b10          --   Gb  - Linker created -
-?main                    0x800'0b11         Code  Gb  cmain.o [4]
+.iar.init_table$$Base    0x800'0d38          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'0d5c          --   Gb  - Linker created -
+?main                    0x800'0d5d         Code  Gb  cmain.o [4]
 BusFault_Handler         0x800'0887         Code  Wk  vectortrap_M.o [4]
 CSTACK$$Base            0x2000'0198          --   Gb  - Linker created -
 CSTACK$$Limit           0x2000'2198          --   Gb  - Linker created -
@@ -213,44 +215,45 @@ HardFault_Handler        0x800'0887         Code  Wk  vectortrap_M.o [4]
 MemManage_Handler        0x800'0887         Code  Wk  vectortrap_M.o [4]
 NMI_Handler              0x800'0887         Code  Wk  vectortrap_M.o [4]
 PendSV_Handler           0x800'0887         Code  Wk  vectortrap_M.o [4]
-Region$$Table$$Base      0x800'0aec          --   Gb  - Linker created -
-Region$$Table$$Limit     0x800'0b10          --   Gb  - Linker created -
+Region$$Table$$Base      0x800'0d38          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'0d5c          --   Gb  - Linker created -
 SVC_Handler              0x800'0887         Code  Wk  vectortrap_M.o [4]
 SysTick_Handler          0x800'0887         Code  Wk  vectortrap_M.o [4]
 UsageFault_Handler       0x800'0887         Code  Wk  vectortrap_M.o [4]
 __aeabi_cdcmple          0x800'0605         Code  Gb  DblCmpLe.o [3]
 __aeabi_d2iz             0x800'0889         Code  Gb  DblToS32.o [3]
-__aeabi_d2uiz            0x800'09bd         Code  Gb  DblToU32.o [3]
+__aeabi_d2uiz            0x800'0c5d         Code  Gb  DblToU32.o [3]
 __aeabi_dadd             0x800'0639         Code  Gb  DblAddSub.o [3]
+__aeabi_ddiv             0x800'08e5         Code  Gb  DblDiv.o [3]
 __aeabi_dmul             0x800'0431         Code  Gb  DblMul.o [3]
 __aeabi_i2d              0x800'08c1         Code  Gb  S32ToDbl.o [3]
-__aeabi_ui2d             0x800'098d         Code  Gb  U32ToDbl.o [3]
-__cmain                  0x800'0b11         Code  Gb  cmain.o [4]
-__exit                   0x800'0b45   0x14  Code  Gb  exit.o [5]
+__aeabi_ui2d             0x800'0c2d         Code  Gb  U32ToDbl.o [3]
+__cmain                  0x800'0d5d         Code  Gb  cmain.o [4]
+__exit                   0x800'0d91   0x14  Code  Gb  exit.o [5]
 __iar_Sin64              0x800'0041  0x35c  Code  Lc  cos_sin64.o [3]
-__iar_close_ttio         0x800'0a6d   0x2c  Code  Gb  iarttio.o [5]
+__iar_close_ttio         0x800'0cb9   0x2c  Code  Gb  iarttio.o [5]
 __iar_copy_init3         0x800'05db   0x2a  Code  Gb  copy_init3.o [4]
-__iar_data_init3         0x800'0aa1   0x28  Code  Gb  data_init.o [4]
-__iar_init_vfp           0x800'0ac9         Code  Gb  fpinit_M.o [3]
-__iar_lookup_ttioh       0x800'0a99    0x8  Code  Gb  XShttio.o [2]
-__iar_program_start      0x800'0b59         Code  Gb  cstartup_M.o [4]
+__iar_data_init3         0x800'0ced   0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp           0x800'0d15         Code  Gb  fpinit_M.o [3]
+__iar_lookup_ttioh       0x800'0ce5    0x8  Code  Gb  XShttio.o [2]
+__iar_program_start      0x800'0da5         Code  Gb  cstartup_M.o [4]
 __iar_sin64              0x800'042d    0x4  Code  Gb  cos_sin64.o [3]
 __iar_sin_medium         0x800'042d    0x4  Code  Gb  cos_sin64.o [3]
 __iar_sin_medium64       0x800'042d    0x4  Code  Gb  cos_sin64.o [3]
 __iar_sin_mediuml        0x800'042d    0x4  Code  Gb  cos_sin64.o [3]
 __iar_ttio_handles      0x2000'0000    0x8  Data  Lc  XShttio.o [2]
-__iar_vfp_sin            0x800'09af    0xc  Code  Gb  math_wrappers64.o [3]
-__iar_zero_init3         0x800'0a35   0x38  Code  Gb  zero_init3.o [4]
-__low_level_init         0x800'0b2f    0x4  Code  Gb  low_level_init.o [2]
+__iar_vfp_sin            0x800'0c4f    0xc  Code  Gb  math_wrappers64.o [3]
+__iar_zero_init3         0x800'0c7f   0x38  Code  Gb  zero_init3.o [4]
+__low_level_init         0x800'0d7b    0x4  Code  Gb  low_level_init.o [2]
 __vector_table           0x800'0000         Data  Gb  vector_table_M.o [4]
-_call_main               0x800'0b1d         Code  Gb  cmain.o [4]
-_exit                    0x800'0b39         Code  Gb  cexit.o [4]
-exit                     0x800'0b33    0x4  Code  Gb  exit.o [2]
-main                     0x800'08e5   0xa8  Code  Gb  main.o [1]
+_call_main               0x800'0d69         Code  Gb  cmain.o [4]
+_exit                    0x800'0d85         Code  Gb  cexit.o [4]
+exit                     0x800'0d7f    0x4  Code  Gb  exit.o [2]
+main                     0x800'0b2d   0x90  Code  Gb  main.o [1]
 sin                      0x800'042d    0x4  Code  Gb  cos_sin64.o [3]
+sineWave                 0x800'0bbd   0x5e  Code  Gb  functions.o [1]
 sinl                     0x800'042d    0x4  Code  Gb  cos_sin64.o [3]
 vector                  0x2000'0008  0x190  Data  Gb  main.o [1]
-wait_us                  0x800'09e1   0x44  Code  Gb  functions.o [1]
 
 
 [1] = C:\Users\gabri\Desktop\STM-main\EXAMPLES\generator_lez_13\Debug\Obj
@@ -259,7 +262,7 @@ wait_us                  0x800'09e1   0x44  Code  Gb  functions.o [1]
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-  2'894 bytes of readonly  code memory
+  3'482 bytes of readonly  code memory
      46 bytes of readonly  data memory
   8'600 bytes of readwrite data memory
 

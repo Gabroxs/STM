@@ -4,7 +4,7 @@
 #include <math.h>
 #include <stdbool.h>
 
-float mean(const float values[], unsigned int N){
+float mean(const float *const values, unsigned int N){
   
   float media = 0;
       
@@ -17,7 +17,7 @@ float mean(const float values[], unsigned int N){
   
 }
 
-float std_dev(const float values[], float mean, unsigned int N){
+float std_dev(const float *const values, float mean, unsigned int N){
   
   float std_dev = 0;
   float partial = 0;
@@ -120,4 +120,14 @@ unsigned int TIMER3_PSC_wait_ms(float delta_t){
   }
   
     
+}
+
+void sineWave(unsigned int *const vector, unsigned int size){
+  
+    for(unsigned int i = 0; i < size; i++){
+    
+      vector[i] = (unsigned int) (2047 * sin((2 * 3.14159 / size) * i) + 2048);
+    
+  }
+  
 }
