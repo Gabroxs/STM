@@ -10,5 +10,6 @@
    float mean(const float values[], unsigned int N);
    float std_dev(const float values[], float mean, unsigned int N);
    unsigned int TIMER3_PSC_wait_ms(float delta_t);
+   void sineWave(unsigned int *const vector, unsigned int size);
 
 #endif
