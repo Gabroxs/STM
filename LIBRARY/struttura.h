@@ -221,9 +221,52 @@ typedef struct{
 
 }DAC_type;
 
+typedef struct{
+
+  unsigned int ISR;
+  unsigned int IFCT;
+  unsigned int CCR1;
+  unsigned int CNDTR1;
+  unsigned int CPAR1;
+  unsigned int CMAR1;
+  unsigned int RESERVED0;
+  unsigned int CCR2;
+  unsigned int CNDTR2;
+  unsigned int CPAR2;
+  unsigned int CMAR2;
+  unsigned int RESERVED1;
+  unsigned int CCR3;
+  unsigned int CNDTR3;
+  unsigned int CPAR3;
+  unsigned int CMAR3;
+  unsigned int RESERVED2;
+  unsigned int CCR4;
+  unsigned int CNDTR4;
+  unsigned int CPAR4;
+  unsigned int CMAR4;
+  unsigned int RESERVED3;
+  unsigned int CCR5;
+  unsigned int CPAR5;
+  unsigned int CMAR5;
+  unsigned int RESERVED4;
+  unsigned int CCR6;
+  unsigned int CNDTR6;
+  unsigned int CPAR6;
+  unsigned int CMAR6;
+  unsigned int RESERVED5;
+  unsigned int CCR7;
+  unsigned int CNDTR7;
+  unsigned int CPAR7;
+  unsigned int CMAR7;
+  unsigned int RESERVED6;
+  
+
+}DMA_type;
 
 
 
+#define DMA1 ((DMA_type*) 0x40020000)
+#define DMA2 ((DMA_type*) 0x40020400)
 #define RCC ((RCC_type*) 0x40021000)
 
 #define GPIOE ((Gpio_type*) 0x48001000)
