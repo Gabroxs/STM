@@ -33,16 +33,12 @@ int main(void){
   GPIOA -> MODER4 = 3;
   DAC1 -> CR |= EN1 | BOFF1;
  
-  /*
-  for(unsigned int i = 0; i < SAMPLES; i++){
-    
-    vector[i] = (unsigned int) (2047 * sin((2 * PI / SAMPLES) * i) + 2048);
-    
-  }
-  */
   
-  sineWave(vector, SAMPLES);
-    
+  //squareWave(vector, SAMPLES);
+  //sineWave(vector, SAMPLES);
+  triangularWave(vector, SAMPLES);  
+  
+  
   while(1){
     
     for(unsigned int i = 0; i < SAMPLES; i++){
