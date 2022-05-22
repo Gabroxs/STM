@@ -125,7 +125,7 @@ typedef struct{
 	unsigned int CCMR1;
 	unsigned int CCMR2;
 	unsigned int CCER;
-  unsigned int CNT;
+        unsigned int CNT;
 	unsigned int PSC;
 	unsigned int ARR;
 	unsigned int CCR1;
@@ -137,6 +137,35 @@ typedef struct{
 	unsigned int DMAR;
 		
 }Timer_type; 
+
+typedef struct{ 
+
+	unsigned int CR1;   
+	unsigned int CR2;  
+	unsigned int SMCR;
+	unsigned int DIER;
+	unsigned int SR;
+	unsigned int EGR;
+	unsigned int CCMR1;
+	unsigned int CCMR2;
+	unsigned int CCER;
+        unsigned int CNT;
+	unsigned int PSC;
+	unsigned int ARR;
+        unsigned int RCR;
+	unsigned int CCR1;
+	unsigned int CCR2;
+	unsigned int CCR3;
+	unsigned int CCR4;
+	unsigned int BDTR;
+	unsigned int DCR;
+	unsigned int DMAR;
+        unsigned int RESERVER0;
+        unsigned int CCMR3;
+        unsigned int CCR5;
+        unsigned int CCR6;
+		
+}Timer_1_8_type; 
 
 
 
@@ -224,7 +253,7 @@ typedef struct{
 typedef struct{
 
   unsigned int ISR;
-  unsigned int IFCT;
+  unsigned int IFCR;
   unsigned int CCR1;
   unsigned int CNDTR1;
   unsigned int CPAR1;
@@ -246,6 +275,7 @@ typedef struct{
   unsigned int CMAR4;
   unsigned int RESERVED3;
   unsigned int CCR5;
+  unsigned int CNDTR5;
   unsigned int CPAR5;
   unsigned int CMAR5;
   unsigned int RESERVED4;
@@ -260,10 +290,7 @@ typedef struct{
   unsigned int CMAR7;
   unsigned int RESERVED6;
   
-
 }DMA_type;
-
-
 
 #define DMA1 ((DMA_type*) 0x40020000)
 #define DMA2 ((DMA_type*) 0x40020400)
@@ -273,14 +300,15 @@ typedef struct{
 #define GPIOA ((Gpio_type*) 0x48000000)
 #define GPIOC ((Gpio_type*) 0x48000800)
 
+#define TIMER1 ((Timer_1_8_type*) 0x40012C00)
 #define TIMER2 ((Timer_type*) 0x40000000)
 #define TIMER3 ((Timer_type*) 0x40000400)
 #define DAC1 ((DAC_type*) 0x40007400)
 
-
 #define GPIOAEN  (1 << 17)
 #define GPIOCEN (1 << 19)
 
+#define TIMER1EN (1 << 11)
 #define TIMER2EN (1 << 0)
 #define TIMER3EN (1 << 1)
 #define UIF (1 << 0)
