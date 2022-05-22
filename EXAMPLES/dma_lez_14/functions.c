@@ -2,7 +2,6 @@
 #include "struttura.h"
 #include <stdio.h>
 #include <math.h>
-#include <stdbool.h>
 
 float mean(const float *const values, unsigned int N){
   
@@ -77,15 +76,31 @@ void ADC1_vreg_en(void){
 }
 
 
-  
-
-void TIMER3_set(unsigned int arr, unsigned int psc, _Bool enable){
+void TIMER3_set(unsigned int arr, unsigned int psc){
   
   TIMER3 -> ARR = arr;                
   TIMER3 -> PSC = psc;       
-  TIMER3 -> CR1 |= enable;
-    
+   
 }
+
+void timer3Enable(unsigned int enable){
+  
+    TIMER3 -> CR1 |= enable;
+
+}  
+
+void TIMER2_set(unsigned int arr, unsigned int psc){
+  
+  TIMER2 -> ARR = arr;                
+  TIMER2 -> PSC = psc;       
+   
+}
+
+void timer2Enable(unsigned int enable){
+  
+    TIMER2 -> CR1 |= enable;
+
+}  
 
 
 unsigned int TIMER3_PSC_wait_ms(float delta_t){
@@ -171,8 +186,45 @@ void triangularWave(unsigned int *const vector, unsigned int size){
     vector[i + 3*size/4] = 81 * i;
     
   }
+    
+}
+
+
+void DAC1_set(unsigned int boff1, unsigned int ten1, unsigned int tsel1, unsigned int dmaen1){
   
+  DAC1 -> CR |= boff1 << 1;
+  DAC1 -> CR |= ten1 << 2;
+  DAC1 -> CR |= tsel1 << 3;
+  DAC1 -> CR |= dmaen1 << 12; 
   
+}
+
+void DAC1_en(unsigned int en1){
+  
+  DAC1 -> CR |= en1;
+  
+}
+
+void DAC2_set(unsigned int boff2, unsigned int ten2, unsigned int tsel2, unsigned int dmaen2){
+  
+  DAC1 -> CR |= boff2 << 1;
+  DAC1 -> CR |= ten2 << 2;
+  DAC1 -> CR |= tsel2 << 3;
+  DAC1 -> CR |= dmaen2 << 12; 
+  
+}
+
+void DAC2_en(unsigned int en2){
+  
+  DAC1 -> CR |= en2;
+  
+}
+/*
+void DMA1_set(unsigned int cpar, unsigned int cmar, unsigned int cndtr, unsigned int priority){
+  
+  DMA1 -> CPAR
   
   
 }
+*/
+

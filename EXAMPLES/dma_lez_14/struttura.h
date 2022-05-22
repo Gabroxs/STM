@@ -224,7 +224,7 @@ typedef struct{
 typedef struct{
 
   unsigned int ISR;
-  unsigned int IFCT;
+  unsigned int IFCR;
   unsigned int CCR1;
   unsigned int CNDTR1;
   unsigned int CPAR1;
@@ -246,6 +246,7 @@ typedef struct{
   unsigned int CMAR4;
   unsigned int RESERVED3;
   unsigned int CCR5;
+  unsigned int CNDTR5;
   unsigned int CPAR5;
   unsigned int CMAR5;
   unsigned int RESERVED4;
@@ -260,10 +261,7 @@ typedef struct{
   unsigned int CMAR7;
   unsigned int RESERVED6;
   
-
 }DMA_type;
-
-
 
 #define DMA1 ((DMA_type*) 0x40020000)
 #define DMA2 ((DMA_type*) 0x40020400)
@@ -276,7 +274,6 @@ typedef struct{
 #define TIMER2 ((Timer_type*) 0x40000000)
 #define TIMER3 ((Timer_type*) 0x40000400)
 #define DAC1 ((DAC_type*) 0x40007400)
-
 
 #define GPIOAEN  (1 << 17)
 #define GPIOCEN (1 << 19)
