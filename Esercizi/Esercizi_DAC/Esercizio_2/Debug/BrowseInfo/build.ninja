@@ -24,28 +24,28 @@ rule PDBLINK
 
 
 #Build steps
-build C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.xcl : COMPILER_XCL 
-  xclcommand = -source_file C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\functions.c -xcl_file C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.xcl -macro_file C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
-  flags = C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\functions.c -o C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\ -Ol --predef_macros C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.tmp
-  rspfile_name = C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.xcl.rsp
+build C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\functions.c -xcl_file C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.xcl -macro_file C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\functions.c -o C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\ -Ol --predef_macros C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.tmp
+  rspfile_name = C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.xcl.rsp
 
-build C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
-  xclcommand = -source_file C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\main.c -xcl_file C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.xcl -macro_file C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
-  flags = C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\main.c -o C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\ -Ol --predef_macros C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.tmp
-  rspfile_name = C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.xcl.rsp
+build C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\main.c -xcl_file C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.xcl -macro_file C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\main.c -o C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\ -Ol --predef_macros C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.tmp
+  rspfile_name = C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.xcl.rsp
 
-build C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.pbi : INDEXER C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.xcl |  $
-C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\functions.c
-  flags = -out=C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.pbi -f C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.xcl
+build C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.pbi : INDEXER C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.xcl |  $
+C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\functions.c
+  flags = -out=C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.pbi -f C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.xcl
 
-build C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.pbi : INDEXER C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.xcl |  $
-C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\main.c
-  flags = -out=C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.pbi -f C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.xcl
+build C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.pbi : INDEXER C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.xcl |  $
+C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\main.c
+  flags = -out=C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.pbi -f C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.xcl
 
-build C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\Esercizio_2.pbw : MAKEBROWSE C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\Esercizio_2.pbd
-  flags = C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\Esercizio_2.pbd -output C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\Esercizio_2.pbw
+build C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\Esercizio_2.pbw : MAKEBROWSE C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\Esercizio_2.pbd
+  flags = C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\Esercizio_2.pbd -output C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\Esercizio_2.pbw
 
-build C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\Esercizio_2.pbd : PDBLINK C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.pbi |  $
-C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.pbi
-  flags = -M C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\Esercizio_2.pbd C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.pbi C$:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.pbi
+build C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\Esercizio_2.pbd : PDBLINK C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.pbi |  $
+C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.pbi
+  flags = -M C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\Esercizio_2.pbd C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\functions.pbi C$:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\Debug\BrowseInfo\main.pbi
 

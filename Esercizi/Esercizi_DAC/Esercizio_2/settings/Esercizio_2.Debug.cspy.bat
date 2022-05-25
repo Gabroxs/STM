@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\settings\Esercizio_2.Debug.general.xcl" --backend -f "C:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\settings\Esercizio_2.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\settings\Esercizio_2.Debug.general.xcl" --backend -f "C:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\settings\Esercizio_2.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\settings\Esercizio_2.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\gabri\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\settings\Esercizio_2.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\settings\Esercizio_2.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Gabriele\Desktop\STM-main\Esercizi\Esercizi_DAC\Esercizio_2\settings\Esercizio_2.Debug.driver.xcl" 
 
 @echo off 
 :end
