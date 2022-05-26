@@ -3,8 +3,5 @@
     <project>
         <path>$WS_DIR$\dma_lez_14.ewp</path>
     </project>
-    <project>
-        <path>$WS_DIR$\..\generator_lez_13\generator_lez_13.ewp</path>
-    </project>
     <batchBuild />
 </workspace>
