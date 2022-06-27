@@ -1,0 +1,51 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe" $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe" $flags
+
+rule MAKEBROWSE
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe" $flags
+
+rule PDBLINK
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe" $flags
+
+
+
+#Build steps
+build C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\main.c -xcl_file C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\main.xcl -macro_file C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\main.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\main.c -o C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\ -I C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Libreria\ -Ol --predef_macros C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\main.tmp
+  rspfile_name = C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\main.xcl.rsp
+
+build C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\system_stm32f30x.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Libreria\system_stm32f30x.c -xcl_file C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\system_stm32f30x.xcl -macro_file C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\system_stm32f30x.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Libreria\system_stm32f30x.c -o C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\ -I C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Libreria\ -Ol --predef_macros C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\system_stm32f30x.tmp
+  rspfile_name = C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\system_stm32f30x.xcl.rsp
+
+build C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\main.pbi : INDEXER C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\main.xcl |  $
+C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\main.c
+  flags = -out=C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\main.pbi -f C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\main.xcl
+
+build C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\system_stm32f30x.pbi : INDEXER C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\system_stm32f30x.xcl |  $
+C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Libreria\system_stm32f30x.c
+  flags = -out=C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\system_stm32f30x.pbi -f C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\system_stm32f30x.xcl
+
+build C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\interrupt.pbw : MAKEBROWSE C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\interrupt.pbd
+  flags = C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\interrupt.pbd -output C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\interrupt.pbw
+
+build C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\interrupt.pbd : PDBLINK C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\main.pbi |  $
+C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\system_stm32f30x.pbi
+  flags = -M C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\interrupt.pbd C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\main.pbi C$:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt\Debug\BrowseInfo\system_stm32f30x.pbi
+
