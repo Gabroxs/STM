@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\settings\interrupt_EXTI.Debug.general.xcl" --backend -f "C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\settings\interrupt_EXTI.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\settings\interrupt_EXTI.Debug.general.xcl" --backend -f "C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\settings\interrupt_EXTI.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\settings\interrupt_EXTI.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\settings\interrupt_EXTI.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\settings\interrupt_EXTI.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\settings\interrupt_EXTI.Debug.driver.xcl" 
 }

@@ -1,19 +1,19 @@
-"C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\main.c"
+"C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\main.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\BrowseInfo\main.pbi.dep
+C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\BrowseInfo\main.pbi.dep
 -o
-C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\BrowseInfo\main.pbi
+C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\BrowseInfo\main.pbi
+-I
+C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI
 -I
 C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI
 -I
-C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI
--I
-C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Libreria
+C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Libreria
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\aarch32
 -I
@@ -23,7 +23,7 @@ C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c
 -I
 C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI
 -I
-C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Libreria
+C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Libreria
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

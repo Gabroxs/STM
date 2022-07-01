@@ -39,13 +39,10 @@ void main(void){
   //Bisogna specificare se il fronte di attivazione e' di salita o discesa (registro EXTI_FTSR1 per falling edge mentre EXTI_RTST1 per rising edge)
   
   EXTI ->RTSR |= 1;
-    
-    
-  //Abilito interrupt lato periferica
-  
+     
   //I registri dell'NVIC si trovano nel PROGRAM MANUAL...nel particolare i registri di nostro interesse sono i NVIC_ISERx
   
-  NVIC ->ISER[0] |= 1 << 6;  //Abilito interrupt TIM2 lato CPU/NVIC
+  NVIC ->ISER[0] |= 1 << 6;  //Abilito interrupt EXTI0 (ha posizione 6 cfr.pag 184 ref manual) lato CPU/NVIC
   
   
   while(1);
@@ -60,5 +57,5 @@ void EXTI0_IRQHandler(){
   
   GPIOE ->ODR ^= 1 << 8;
   
-}//ISR TIMER2
+}//ISR PA0 (EXTI0)
 

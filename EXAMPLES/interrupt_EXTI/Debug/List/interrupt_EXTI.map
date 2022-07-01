@@ -1,22 +1,22 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.20.4.327/W64 for ARM                  27/Jun/2022  11:52:30
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  01/Jul/2022  12:39:17
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
-#        C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\Exe\interrupt_EXTI.out
+#        C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\Exe\interrupt_EXTI.out
 #    Map file     =
-#        C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\List\interrupt_EXTI.map
+#        C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\List\interrupt_EXTI.map
 #    Command line =
 #        -f
-#        C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\Exe\interrupt_EXTI.out.rsp
-#        (C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\Obj\main.o
-#        C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\Obj\startup_stm32f30x.o
-#        C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\Obj\system_stm32f30x.o
+#        C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\Exe\interrupt_EXTI.out.rsp
+#        (C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\Obj\main.o
+#        C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\Obj\startup_stm32f30x.o
+#        C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\Obj\system_stm32f30x.o
 #        --no_out_extension -o
-#        C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\Exe\interrupt_EXTI.out
+#        C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\Exe\interrupt_EXTI.out
 #        --map
-#        C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\List\interrupt_EXTI.map
+#        C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\List\interrupt_EXTI.map
 #        --config "C:\Program Files\IAR Systems\Embedded Workbench
 #        9.0\arm\config\linker\ST\stm32f303xC.icf" --semihosting --entry
 #        __iar_program_start --vfe --text_out locale)
@@ -177,7 +177,7 @@ command line/config:
     -------------------------------------
     Total:
 
-C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\Obj: [1]
+C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\Obj: [1]
     main.o                   116
     startup_stm32f30x.o      708
     system_stm32f30x.o       296
@@ -239,7 +239,7 @@ exit                   0x800'036b   0x4  Code  Gb  exit.o [2]
 main                   0x800'02b1  0x3c  Code  Gb  main.o [1]
 
 
-[1] = C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\Obj
+[1] = C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\Obj
 [2] = dl7M_tln.a
 [3] = m7M_tls.a
 [4] = rt7M_tl.a

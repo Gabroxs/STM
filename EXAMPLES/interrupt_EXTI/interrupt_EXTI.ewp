@@ -82,7 +82,7 @@
                 </option>
                 <option>
                     <name>GEndianModeBE</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>OGBufferedTerminalOutput</name>
@@ -99,7 +99,7 @@
                 <option>
                     <name>GBECoreSlave</name>
                     <version>31</version>
-                    <state>38</state>
+                    <state>39</state>
                 </option>
                 <option>
                     <name>OGUseCmsis</name>
@@ -336,7 +336,7 @@
                 <option>
                     <name>CCIncludePath2</name>
                     <state>C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI</state>
-                    <state>C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Libreria</state>
+                    <state>C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Libreria</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>

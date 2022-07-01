@@ -1,16 +1,16 @@
-C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\BrowseInfo\system_stm32f30x.pbi: \
-  C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Libreria\system_stm32f30x.c \
-  C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Libreria\stm32f30x.h \
-  C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Libreria\core_cm4.h \
+C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Debug\BrowseInfo\system_stm32f30x.pbi: \
+  C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Libreria\system_stm32f30x.c \
+  C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Libreria\stm32f30x.h \
+  C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Libreria\core_cm4.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Defaults.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Config_Normal.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product.h \
-  C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Libreria\core_cmInstr.h \
+  C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Libreria\core_cmInstr.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\cmsis_iar.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\iccarm_builtin.h \
-  C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Libreria\core_cmFunc.h \
-  C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Libreria\core_cm4_simd.h \
-  C:\Users\Gabriele\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Libreria\system_stm32f30x.h
+  C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Libreria\core_cmFunc.h \
+  C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Libreria\core_cm4_simd.h \
+  C:\Users\gabri\Desktop\STM-main\EXAMPLES\interrupt_EXTI\Libreria\system_stm32f30x.h
