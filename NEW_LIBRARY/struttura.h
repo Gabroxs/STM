@@ -292,21 +292,59 @@ typedef struct{
   
 }DMA_type;
 
-#define DMA1 ((DMA_type*) 0x40020000)
-#define DMA2 ((DMA_type*) 0x40020400)
-#define RCC ((RCC_type*) 0x40021000)
+typedef struct{
 
-#define GPIOE ((Gpio_type*) 0x48001000)
-#define GPIOA ((Gpio_type*) 0x48000000)
-#define GPIOC ((Gpio_type*) 0x48000800)
+  unsigned int IMR1;
+  unsigned int EMR1;
+  unsigned int RTSR1;
+  unsigned int FTSR1;
+  unsigned int SWIER1;
+  unsigned int PR1;
+  unsigned int RESERVED0;
+  unsigned int RESERVED1;
+  unsigned int IMR2;
+  unsigned int EMR2;
+  unsigned int RTST2;
+  unsigned int FTSR2;
+  unsigned int SWIER2;
+  unsigned int PR2;
 
-#define TIMER1 ((Timer_1_8_type*) 0x40012C00)
-#define TIMER2 ((Timer_type*) 0x40000000)
-#define TIMER3 ((Timer_type*) 0x40000400)
-#define DAC1 ((DAC_type*) 0x40007400)
+}EXTI_type;
+
+typedef struct{
+
+  unsigned int CFGR1;
+  unsigned int RCR;
+  unsigned int EXTICR1;
+  unsigned int EXTICR2;
+  unsigned int EXTICR3;
+  unsigned int EXTICR4;
+  unsigned int CFGR2;
+
+}SYSCFG_type;
+
+#define My_DMA1 ((DMA_type*) 0x40020000)
+#define My_DMA2 ((DMA_type*) 0x40020400)
+#define My_RCC ((RCC_type*) 0x40021000)
+
+#define My_GPIOE ((Gpio_type*) 0x48001000)
+#define My_GPIOA ((Gpio_type*) 0x48000000)
+#define My_GPIOC ((Gpio_type*) 0x48000800)
+
+#define My_TIMER1 ((Timer_1_8_type*) 0x40012C00)
+#define My_TIMER2 ((Timer_type*) 0x40000000)
+#define My_TIMER3 ((Timer_type*) 0x40000400)
+
+#define My_DAC1 ((DAC_type*) 0x40007400)
+#define My_EXTI ((EXTI_type*) 0x40010400)
+#define My_SYSCFG ((SYSCFG_type*) 0x40010000)
 
 #define GPIOAEN  (1 << 17)
+#define GPIOBEN (1 << 18)
 #define GPIOCEN (1 << 19)
+
+#define DMA1EN 1
+#define DMA2EN (1 << 1)
 
 #define TIMER1EN (1 << 11)
 #define TIMER2EN (1 << 0)
@@ -314,13 +352,13 @@ typedef struct{
 #define UIF (1 << 0)
 
 
-#define ADC1 ((ADC_type*) 0x50000000)
-#define ADC2 ((ADC_type*) 0x50000100)
-#define ADC3 ((ADC_type*) 0x50000400)
-#define ADC4 ((ADC_type*) 0x50000500)
+#define My_ADC1 ((ADC_type*) 0x50000000)
+#define My_ADC2 ((ADC_type*) 0x50000100)
+#define My_ADC3 ((ADC_type*) 0x50000400)
+#define My_ADC4 ((ADC_type*) 0x50000500)
 
-#define ADC1_2 ((ADC_CR_type*) 0x50000300)
-#define ADC3_4 ((ADC_CR_type*) 0x50000700)
+#define My_ADC1_2 ((ADC_CR_type*) 0x50000300)
+#define My_ADC3_4 ((ADC_CR_type*) 0x50000700)
 
 #define ADC12EN (1 << 28)
 #define ADC34EN (1 << 29)
