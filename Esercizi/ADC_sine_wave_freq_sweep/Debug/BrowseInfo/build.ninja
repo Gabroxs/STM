@@ -1,0 +1,90 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe" $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe" $flags
+
+rule MAKEBROWSE
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe" $flags
+
+rule PDBLINK
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe" $flags
+
+
+
+#Build steps
+build C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\adc.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\adc.c -xcl_file C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\adc.xcl -macro_file C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\adc.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\adc.c -o C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\ -Ol --predef_macros C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\adc.tmp
+  rspfile_name = C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\adc.xcl.rsp
+
+build C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\dac.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\dac.c -xcl_file C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\dac.xcl -macro_file C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\dac.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\dac.c -o C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\ -Ol --predef_macros C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\dac.tmp
+  rspfile_name = C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\dac.xcl.rsp
+
+build C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\main.c -xcl_file C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\main.xcl -macro_file C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\main.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\main.c -o C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\ -Ol --predef_macros C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\main.tmp
+  rspfile_name = C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\main.xcl.rsp
+
+build C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\signal.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\signal.c -xcl_file C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\signal.xcl -macro_file C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\signal.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\signal.c -o C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\ -Ol --predef_macros C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\signal.tmp
+  rspfile_name = C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\signal.xcl.rsp
+
+build C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\timer.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\timer.c -xcl_file C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\timer.xcl -macro_file C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\timer.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\timer.c -o C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\ -Ol --predef_macros C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\timer.tmp
+  rspfile_name = C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\timer.xcl.rsp
+
+build C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\adc.pbi : INDEXER C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\adc.xcl |  $
+C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\adc.c
+  flags = -out=C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\adc.pbi -f C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\adc.xcl
+
+build C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\dac.pbi : INDEXER C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\dac.xcl |  $
+C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\dac.c
+  flags = -out=C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\dac.pbi -f C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\dac.xcl
+
+build C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\main.pbi : INDEXER C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\main.xcl |  $
+C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\main.c
+  flags = -out=C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\main.pbi -f C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\main.xcl
+
+build C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\signal.pbi : INDEXER C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\signal.xcl |  $
+C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\signal.c
+  flags = -out=C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\signal.pbi -f C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\signal.xcl
+
+build C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\timer.pbi : INDEXER C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\timer.xcl |  $
+C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\timer.c
+  flags = -out=C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\timer.pbi -f C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\timer.xcl
+
+build C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\ADC_sine_wave_freq_sweep.pbw : MAKEBROWSE C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\ADC_sine_wave_freq_sweep.pbd
+  flags = C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\ADC_sine_wave_freq_sweep.pbd -output C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\ADC_sine_wave_freq_sweep.pbw
+
+build C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\ADC_sine_wave_freq_sweep_part0.pbi : PDBLINK C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\adc.pbi |  $
+C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\dac.pbi
+  flags = -M C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\ADC_sine_wave_freq_sweep_part0.pbi C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\adc.pbi C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\dac.pbi
+
+build C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\ADC_sine_wave_freq_sweep_part1.pbi : PDBLINK C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\main.pbi |  $
+C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\signal.pbi
+  flags = -M C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\ADC_sine_wave_freq_sweep_part1.pbi C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\main.pbi C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\signal.pbi
+
+build C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\ADC_sine_wave_freq_sweep_part2.pbi : PDBLINK C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\timer.pbi
+  flags = -M C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\ADC_sine_wave_freq_sweep_part2.pbi C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\timer.pbi
+
+build C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\ADC_sine_wave_freq_sweep.pbd : PDBLINK C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\ADC_sine_wave_freq_sweep_part0.pbi |  $
+C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\ADC_sine_wave_freq_sweep_part1.pbi $
+C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\ADC_sine_wave_freq_sweep_part2.pbi
+  flags = -M C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\ADC_sine_wave_freq_sweep.pbd C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\ADC_sine_wave_freq_sweep_part0.pbi C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\ADC_sine_wave_freq_sweep_part1.pbi C$:\Users\gabri\Desktop\STM-main\Esercizi\ADC_sine_wave_freq_sweep\Debug\BrowseInfo\ADC_sine_wave_freq_sweep_part2.pbi
+

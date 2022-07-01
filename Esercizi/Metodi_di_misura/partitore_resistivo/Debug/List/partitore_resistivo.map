@@ -1,0 +1,240 @@
+###############################################################################
+#
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  01/Jul/2022  10:59:22
+# Copyright 2007-2022 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\gabri\Desktop\STM-main\Esercizi\Metodi_di_misura\partitore_resistivo\Debug\Exe\partitore_resistivo.out
+#    Map file     =
+#        C:\Users\gabri\Desktop\STM-main\Esercizi\Metodi_di_misura\partitore_resistivo\Debug\List\partitore_resistivo.map
+#    Command line =
+#        -f
+#        C:\Users\gabri\Desktop\STM-main\Esercizi\Metodi_di_misura\partitore_resistivo\Debug\Exe\partitore_resistivo.out.rsp
+#        (C:\Users\gabri\Desktop\STM-main\Esercizi\Metodi_di_misura\partitore_resistivo\Debug\Obj\main.o
+#        --no_out_extension -o
+#        C:\Users\gabri\Desktop\STM-main\Esercizi\Metodi_di_misura\partitore_resistivo\Debug\Exe\partitore_resistivo.out
+#        --map
+#        C:\Users\gabri\Desktop\STM-main\Esercizi\Metodi_di_misura\partitore_resistivo\Debug\List\partitore_resistivo.map
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.0\arm\config\linker\ST\stm32f303xC.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x803'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'9fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  section .ccmram  in "P3"
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0x40
+  .intvec            ro code   0x800'0000    0x40  vector_table_M.o [4]
+                             - 0x800'0040    0x40
+
+"P1":                                       0xbbf
+  .text              ro code   0x800'0040   0x3a4  main.o [1]
+  .text              ro code   0x800'03e4    0x48  FltToDbl.o [3]
+  .text              ro code   0x800'042c   0x24e  DblAddSub.o [3]
+  .text              ro code   0x800'067a    0x3a  packbits_init_single.o [4]
+  .text              ro code   0x800'06b4   0x246  DblDiv.o [3]
+  .text              ro code   0x800'08fa     0x2  vectortrap_M.o [4]
+  .text              ro code   0x800'08fc    0x68  DblToFlt.o [3]
+  .text              ro code   0x800'0964    0x1c  U32ToDbl.o [3]
+  .text              ro code   0x800'0980   0x1aa  DblMul.o [3]
+  .text              ro code   0x800'0b2c    0x28  data_init.o [4]
+  .text              ro code   0x800'0b54    0x22  fpinit_M.o [3]
+  .iar.init_table    const     0x800'0b78    0x10  - Linker created -
+  .text              ro code   0x800'0b88    0x1e  cmain.o [4]
+  .text              ro code   0x800'0ba6     0x4  low_level_init.o [2]
+  .text              ro code   0x800'0baa     0x4  exit.o [2]
+  .text              ro code   0x800'0bb0     0xa  cexit.o [4]
+  .text              ro code   0x800'0bbc    0x14  exit.o [5]
+  .text              ro code   0x800'0bd0    0x1c  cstartup_M.o [4]
+  .rodata            const     0x800'0bec     0x0  packbits_init_single.o [4]
+  Initializer bytes  const     0x800'0bec    0x13  <for P2-1>
+                             - 0x800'0bff   0xbbf
+
+"P2", part 1 of 2:                           0x30
+  P2-1                        0x2000'0000    0x30  <Init block>
+    .data            inited   0x2000'0000    0x10  main.o [1]
+    .bss             inited   0x2000'0010    0x10  main.o [1]
+    .bss             inited   0x2000'0020     0x4  main.o [1]
+    .bss             inited   0x2000'0024     0x4  main.o [1]
+    .bss             inited   0x2000'0028     0x4  main.o [1]
+    .bss             inited   0x2000'002c     0x4  main.o [1]
+                            - 0x2000'0030    0x30
+
+"P2", part 2 of 2:                         0x2000
+  CSTACK                      0x2000'0030  0x2000  <Block>
+    CSTACK           uninit   0x2000'0030  0x2000  <Block tail>
+                            - 0x2000'2030  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'0bff   0x803'ffff  0x3'f401
+  0x2000'2030  0x2000'9fff    0x7fd0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x13 (39% of destination):
+           0x800'0bec  0x13
+    1 destination range, total size 0x30:
+          0x2000'0000  0x30
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+C:\Users\gabri\Desktop\STM-main\Esercizi\Metodi_di_misura\partitore_resistivo\Debug\Obj: [1]
+    main.o                      932       19       48
+    -------------------------------------------------
+    Total:                      932       19       48
+
+dl7M_tln.a: [2]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+m7M_tls.a: [3]
+    DblAddSub.o                 590
+    DblDiv.o                    582
+    DblMul.o                    426
+    DblToFlt.o                  104
+    FltToDbl.o                   72
+    U32ToDbl.o                   28
+    fpinit_M.o                   34
+    -------------------------------------------------
+    Total:                    1'836
+
+rt7M_tl.a: [4]
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 28
+    data_init.o                  40
+    packbits_init_single.o       58
+    vector_table_M.o             64
+    vectortrap_M.o                2
+    -------------------------------------------------
+    Total:                      232
+
+shb_l.a: [5]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                          6        2
+    Linker created                        16    8'192
+-----------------------------------------------------
+    Grand Total:              3'034       37    8'240
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'0b78          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'0b88          --   Gb  - Linker created -
+?main                    0x800'0b89         Code  Gb  cmain.o [4]
+BusFault_Handler         0x800'08fb         Code  Wk  vectortrap_M.o [4]
+CSTACK$$Base            0x2000'0030          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'2030          --   Gb  - Linker created -
+DebugMon_Handler         0x800'08fb         Code  Wk  vectortrap_M.o [4]
+HardFault_Handler        0x800'08fb         Code  Wk  vectortrap_M.o [4]
+MemManage_Handler        0x800'08fb         Code  Wk  vectortrap_M.o [4]
+NMI_Handler              0x800'08fb         Code  Wk  vectortrap_M.o [4]
+PendSV_Handler           0x800'08fb         Code  Wk  vectortrap_M.o [4]
+R                       0x2000'0028    0x4  Data  Gb  main.o [1]
+Region$$Table$$Base      0x800'0b78          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'0b88          --   Gb  - Linker created -
+Rs                      0x2000'0000   0x10  Data  Gb  main.o [1]
+Rx                      0x2000'0024    0x4  Data  Gb  main.o [1]
+SVC_Handler              0x800'08fb         Code  Wk  vectortrap_M.o [4]
+SysTick_Handler          0x800'08fb         Code  Wk  vectortrap_M.o [4]
+UsageFault_Handler       0x800'08fb         Code  Wk  vectortrap_M.o [4]
+__aeabi_d2f              0x800'08fd         Code  Gb  DblToFlt.o [3]
+__aeabi_ddiv             0x800'06b5         Code  Gb  DblDiv.o [3]
+__aeabi_dmul             0x800'0981         Code  Gb  DblMul.o [3]
+__aeabi_dsub             0x800'0599         Code  Gb  DblAddSub.o [3]
+__aeabi_f2d              0x800'03e5         Code  Gb  FltToDbl.o [3]
+__aeabi_ui2d             0x800'0965         Code  Gb  U32ToDbl.o [3]
+__cmain                  0x800'0b89         Code  Gb  cmain.o [4]
+__exit                   0x800'0bbd   0x14  Code  Gb  exit.o [5]
+__iar_data_init3         0x800'0b2d   0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp           0x800'0b55         Code  Gb  fpinit_M.o [3]
+__iar_packbits_init_single3
+                         0x800'067b   0x3a  Code  Gb  packbits_init_single.o [4]
+__iar_program_start      0x800'0bd1         Code  Gb  cstartup_M.o [4]
+__low_level_init         0x800'0ba7    0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000         Data  Gb  vector_table_M.o [4]
+_call_main               0x800'0b95         Code  Gb  cmain.o [4]
+_exit                    0x800'0bb1         Code  Gb  cexit.o [4]
+exit                     0x800'0bab    0x4  Code  Gb  exit.o [2]
+j                       0x2000'002c    0x4  Data  Gb  main.o [1]
+main                     0x800'0041  0x3a4  Code  Gb  main.o [1]
+vmax                    0x2000'0020    0x4  Data  Gb  main.o [1]
+vx                      0x2000'0010   0x10  Data  Gb  main.o [1]
+
+
+[1] = C:\Users\gabri\Desktop\STM-main\Esercizi\Metodi_di_misura\partitore_resistivo\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  3'034 bytes of readonly  code memory
+     37 bytes of readonly  data memory
+  8'240 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
